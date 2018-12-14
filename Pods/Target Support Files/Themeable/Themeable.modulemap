@@ -1,0 +1,6 @@
+framework module Themeable {
+  umbrella header "Themeable-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,50 @@
+PODS:
+  - APESuperHUD (1.0)
+  - ColorSlider (4.3)
+  - Sheeeeeeeeet (1.0.2)
+  - Themeable (0.8.0)
+  - TinyCrayon (3.3.2):
+    - TinyCrayon/TCCore (= 3.3.2)
+    - TinyCrayon/TCMask (= 3.3.2)
+  - TinyCrayon/TCCore (3.3.2)
+  - TinyCrayon/TCMask (3.3.2):
+    - TinyCrayon/TCCore
+  - TLPhotoPicker (1.7.8)
+
+DEPENDENCIES:
+  - APESuperHUD (from `https://github.com/apegroup/APESuperHUD.git`, branch `feature/particle_effect`)
+  - ColorSlider
+  - Sheeeeeeeeet
+  - Themeable
+  - TinyCrayon
+  - TLPhotoPicker
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ColorSlider
+    - Sheeeeeeeeet
+    - Themeable
+    - TinyCrayon
+    - TLPhotoPicker
+
+EXTERNAL SOURCES:
+  APESuperHUD:
+    :branch: feature/particle_effect
+    :git: https://github.com/apegroup/APESuperHUD.git
+
+CHECKOUT OPTIONS:
+  APESuperHUD:
+    :commit: d1ea0877880d90565225291a37f9ffd13dd057dc
+    :git: https://github.com/apegroup/APESuperHUD.git
+
+SPEC CHECKSUMS:
+  APESuperHUD: 5aba3292e337dc5158299bfed3d1e4115bcb2f13
+  ColorSlider: 83fb6f174a13d7235ef100d8d5fee1f71adf2182
+  Sheeeeeeeeet: a6ee1e8ba71526268e64b36a97078d68afa62cd9
+  Themeable: 53803cfb6dad2fb51c8e20b9a70daec587ee19d8
+  TinyCrayon: 1950ca37477d4198a7f790f7811cac1e20f9e108
+  TLPhotoPicker: bf191c78f50aea0ee6785ce3499556164b014339
+
+PODFILE CHECKSUM: 11906e4fa7b577ff5f95b42884ac8d19cc18b1ca
+
+COCOAPODS: 1.5.3

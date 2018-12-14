@@ -1,0 +1,6 @@
+framework module Pods_Stickify {
+  umbrella header "Pods-Stickify-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -8,20 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		B6443B0821AF2BD10028DA01 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6443B0721AF2BD10028DA01 /* AppDelegate.swift */; };
-		B6443B0A21AF2BD10028DA01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6443B0921AF2BD10028DA01 /* ViewController.swift */; };
 		B6443B0D21AF2BD10028DA01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6443B0B21AF2BD10028DA01 /* Main.storyboard */; };
 		B6443B0F21AF2BD30028DA01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6443B0E21AF2BD30028DA01 /* Assets.xcassets */; };
 		B6443B1221AF2BD30028DA01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6443B1021AF2BD30028DA01 /* LaunchScreen.storyboard */; };
+		B6475EF421AF2FE000342DA1 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6475EF321AF2FE000342DA1 /* ImagePickerView.swift */; };
+		B660D70B21C027BD007FECCA /* InAppWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B660D70A21C027BD007FECCA /* InAppWebView.swift */; };
+		B660D70D21C03451007FECCA /* DataPrivacy.html in Resources */ = {isa = PBXBuildFile; fileRef = B660D70C21C03451007FECCA /* DataPrivacy.html */; };
+		B660D71021C034C1007FECCA /* Licenses.html in Resources */ = {isa = PBXBuildFile; fileRef = B660D70F21C034C1007FECCA /* Licenses.html */; };
+		B69C48B421C0FCBB001D25C3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69C48B321C0FCBB001D25C3 /* SettingsView.swift */; };
+		B6CA7A3B21BFEF0200550491 /* FireFliesParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = B6CA7A3A21BFEF0200550491 /* FireFliesParticle.sks */; };
+		CF49EDE16347CAD74F0A664D /* Pods_Stickify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E94354E764FCBE217B2E01F /* Pods_Stickify.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E94354E764FCBE217B2E01F /* Pods_Stickify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stickify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		626981444F7755B3EE1FF597 /* Pods-Stickify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stickify.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stickify/Pods-Stickify.debug.xcconfig"; sourceTree = "<group>"; };
+		7BB61CCB2E3A201EA08C39E7 /* Pods-Stickify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stickify.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stickify/Pods-Stickify.release.xcconfig"; sourceTree = "<group>"; };
 		B6443B0421AF2BD10028DA01 /* Stickify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stickify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6443B0721AF2BD10028DA01 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B6443B0921AF2BD10028DA01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B6443B0C21AF2BD10028DA01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B6443B0E21AF2BD30028DA01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6443B1121AF2BD30028DA01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6443B1321AF2BD30028DA01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6475EF321AF2FE000342DA1 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		B660D70A21C027BD007FECCA /* InAppWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InAppWebView.swift; sourceTree = "<group>"; };
+		B660D70C21C03451007FECCA /* DataPrivacy.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = DataPrivacy.html; sourceTree = "<group>"; };
+		B660D70F21C034C1007FECCA /* Licenses.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = Licenses.html; sourceTree = "<group>"; };
+		B69C48B321C0FCBB001D25C3 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B6CA7A3A21BFEF0200550491 /* FireFliesParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FireFliesParticle.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF49EDE16347CAD74F0A664D /* Pods_Stickify.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25FEB1918B26B7EE1F7F64AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E94354E764FCBE217B2E01F /* Pods_Stickify.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81D1407CAF621FDCA01EFFEF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				626981444F7755B3EE1FF597 /* Pods-Stickify.debug.xcconfig */,
+				7BB61CCB2E3A201EA08C39E7 /* Pods-Stickify.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B6443AFB21AF2BD10028DA01 = {
 			isa = PBXGroup;
 			children = (
 				B6443B0621AF2BD10028DA01 /* Stickify */,
 				B6443B0521AF2BD10028DA01 /* Products */,
+				81D1407CAF621FDCA01EFFEF /* Pods */,
+				25FEB1918B26B7EE1F7F64AF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +88,27 @@
 		B6443B0621AF2BD10028DA01 /* Stickify */ = {
 			isa = PBXGroup;
 			children = (
+				B660D70E21C03466007FECCA /* Resources */,
 				B6443B0721AF2BD10028DA01 /* AppDelegate.swift */,
-				B6443B0921AF2BD10028DA01 /* ViewController.swift */,
+				B6475EF321AF2FE000342DA1 /* ImagePickerView.swift */,
+				B69C48B321C0FCBB001D25C3 /* SettingsView.swift */,
+				B660D70A21C027BD007FECCA /* InAppWebView.swift */,
 				B6443B0B21AF2BD10028DA01 /* Main.storyboard */,
-				B6443B0E21AF2BD30028DA01 /* Assets.xcassets */,
-				B6443B1021AF2BD30028DA01 /* LaunchScreen.storyboard */,
-				B6443B1321AF2BD30028DA01 /* Info.plist */,
 			);
 			path = Stickify;
+			sourceTree = "<group>";
+		};
+		B660D70E21C03466007FECCA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B6443B1321AF2BD30028DA01 /* Info.plist */,
+				B6CA7A3A21BFEF0200550491 /* FireFliesParticle.sks */,
+				B660D70F21C034C1007FECCA /* Licenses.html */,
+				B660D70C21C03451007FECCA /* DataPrivacy.html */,
+				B6443B0E21AF2BD30028DA01 /* Assets.xcassets */,
+				B6443B1021AF2BD30028DA01 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +118,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B6443B1621AF2BD30028DA01 /* Build configuration list for PBXNativeTarget "Stickify" */;
 			buildPhases = (
+				36A2950349D8B27683CA78AA /* [CP] Check Pods Manifest.lock */,
 				B6443B0021AF2BD10028DA01 /* Sources */,
 				B6443B0121AF2BD10028DA01 /* Frameworks */,
 				B6443B0221AF2BD10028DA01 /* Resources */,
+				AED605F20290653CC80988E1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,18 +173,72 @@
 			files = (
 				B6443B1221AF2BD30028DA01 /* LaunchScreen.storyboard in Resources */,
 				B6443B0F21AF2BD30028DA01 /* Assets.xcassets in Resources */,
+				B660D71021C034C1007FECCA /* Licenses.html in Resources */,
 				B6443B0D21AF2BD10028DA01 /* Main.storyboard in Resources */,
+				B6CA7A3B21BFEF0200550491 /* FireFliesParticle.sks in Resources */,
+				B660D70D21C03451007FECCA /* DataPrivacy.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36A2950349D8B27683CA78AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Stickify-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AED605F20290653CC80988E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Stickify/Pods-Stickify-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/APESuperHUD/APESuperHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/ColorSlider/ColorSlider.framework",
+				"${BUILT_PRODUCTS_DIR}/Sheeeeeeeeet/Sheeeeeeeeet.framework",
+				"${BUILT_PRODUCTS_DIR}/TLPhotoPicker/TLPhotoPicker.framework",
+				"${BUILT_PRODUCTS_DIR}/Themeable/Themeable.framework",
+				"${PODS_ROOT}/TinyCrayon/TCMask.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/APESuperHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ColorSlider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sheeeeeeeeet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TLPhotoPicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Themeable.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TCMask.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stickify/Pods-Stickify-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B6443B0021AF2BD10028DA01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6443B0A21AF2BD10028DA01 /* ViewController.swift in Sources */,
+				B660D70B21C027BD007FECCA /* InAppWebView.swift in Sources */,
+				B69C48B421C0FCBB001D25C3 /* SettingsView.swift in Sources */,
+				B6475EF421AF2FE000342DA1 /* ImagePickerView.swift in Sources */,
 				B6443B0821AF2BD10028DA01 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,11 +383,12 @@
 		};
 		B6443B1721AF2BD30028DA01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 626981444F7755B3EE1FF597 /* Pods-Stickify.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AXLC3PQNC8;
-				INFOPLIST_FILE = Stickify/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Stickify/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,17 +396,18 @@
 				PRODUCT_BUNDLE_IDENTIFIER = eu.deltasiege.Stickify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		B6443B1821AF2BD30028DA01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BB61CCB2E3A201EA08C39E7 /* Pods-Stickify.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AXLC3PQNC8;
-				INFOPLIST_FILE = Stickify/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Stickify/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +415,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = eu.deltasiege.Stickify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
