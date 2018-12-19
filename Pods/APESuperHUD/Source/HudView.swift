@@ -323,7 +323,9 @@ extension HudView {
         loadingActivityIndicator.startAnimating()
         
         showViewsAnimated(views: [loadingActivityIndicator, informationLabel], completion: {
+            
             completion?()
+            
         })
         
     }
@@ -331,9 +333,12 @@ extension HudView {
     func hideLoadingActivityIndicator(completion: (() -> Void)?) {
         
         hideViewsAnimated(views: [loadingActivityIndicator, informationLabel], completion: { [weak self] in
+            
             self?.loadingActivityIndicator.stopAnimating()
+            
             completion?()
-        })
+            
+            })
         
     }
     
@@ -351,7 +356,9 @@ extension HudView {
         }
         
         showViewsAnimated(views: [titleLabel, informationLabel, iconImageView], completion: {
+            
             completion?()
+            
         })
         
     }

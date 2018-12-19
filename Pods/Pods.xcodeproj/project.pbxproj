@@ -3,270 +3,292 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		DB0F54FE10F679266684FAAB6DA72162 /* SwiftLint */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9D678F878A4F7C61091291A2A52195CA /* Build configuration list for PBXAggregateTarget "SwiftLint" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = SwiftLint;
+			productName = SwiftLint;
+		};
+		F60AE12EF32D99B0590B7AB2D021E26F /* TinyCrayon */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 65431DA27F3688F81E0A52FCD3FF9163 /* Build configuration list for PBXAggregateTarget "TinyCrayon" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = TinyCrayon;
+			productName = TinyCrayon;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		03E58C62DE5F30C9DF0E082FF4AC31DF /* ActionSheetDangerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74A0FD3083A7E50F9BA494B625A6EF6 /* ActionSheetDangerButton.swift */; };
-		0414948FA72606C1347E68EBD1EC2ADA /* TLPhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 614BB8473E006FCF6C17ECB0A28401C0 /* TLPhotoCollectionViewCell.xib */; };
-		05DC2270DA14C7DE506B6D0D82CFDACD /* UIApplication+Fullscreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D31AC6AF75123A0751C73A05BD9547 /* UIApplication+Fullscreen.swift */; };
-		0AB09A5118FA76AE46B18D3428287CCE /* ActionSheetCollectionItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B45432675E7872EA6722746BE248821C /* ActionSheetCollectionItemCell.swift */; };
-		0E9F3E0A9205AF5AB6FB711B3B48BD01 /* HudAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C0CD00485B1919BBFB306A9CBAB70E /* HudAppearance.swift */; };
-		181D47183D44B9AB2B15064E6AAD9D98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
-		1AF3AAA15B7CC681AB616A89E32ADC9F /* ActionSheetItemAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BE0CE6671A1102873630CE966B91C0 /* ActionSheetItemAppearance.swift */; };
-		230367B69D3FF0B3C7C7E550A927A89A /* ActionSheetCollectionItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DFC803A44EBEE2119FB6439C4545F1F /* ActionSheetCollectionItemCell.xib */; };
-		29643211456C0B811144B009BC41F8D8 /* ActionSheetLinkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284FC030652C98E985FF9523233A1CAC /* ActionSheetLinkItem.swift */; };
-		29E8F8C90285A30CB787AF9C64C60B15 /* TLPhotoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D07C14B1CE5A954E5AB8B2BEA0E3EB /* TLPhotoLibrary.swift */; };
-		2BA74C54DCA9A036087C0660B600882D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
-		2C64A32596ED16174AA80B5B2A35CCAC /* UIView+Subviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD64532F7E5E870E1420A130DC8D801F /* UIView+Subviews.swift */; };
-		2CA9564C95A96BDF25A1CC26AE26DBDF /* ActionSheetCollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A0299F551C8459C1F17EDB107A3DAD /* ActionSheetCollectionItem.swift */; };
-		2EC1EF53AC4B29C8C4E8415D2256BEED /* ActionSheetLinkItemAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7654544E09CE886D45A2FBDCE8577D /* ActionSheetLinkItemAppearance.swift */; };
-		3090AECFBEB9786DC3F15D4A32324679 /* ActionSheetMultiSelectItemAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BD25FB85C7C110C6F0EB76E2A12D9D9 /* ActionSheetMultiSelectItemAppearance.swift */; };
-		373E627C37CBA0549E3BFFA8DAE815F0 /* TLPhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3627959BEABD380FB57D314E40681F74 /* TLPhotoCollectionViewCell.swift */; };
-		383C9C493BAE530B7013C7CF875041F5 /* APESuperHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E482027C0B5B5D63CCB36FCDE0BDCF22 /* APESuperHUD-dummy.m */; };
-		3AE2E344F315DCC267A74305FC38C303 /* TLPhotoCollectionViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 614BB8473E006FCF6C17ECB0A28401C0 /* TLPhotoCollectionViewCell.xib */; };
-		3AF5940A574F4A0CDFCDEE2B22E101A7 /* TLCollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677A57F9D33A1D5A5F9D6F7EAA2B0E8E /* TLCollectionTableViewCell.swift */; };
-		3B80D0CE1773021E014B857E7E07CF57 /* TLPhotosPickerViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 919BF3221E68AB37E94C8F43064E4CFA /* TLPhotosPickerViewController.xib */; };
-		3E516665C2C411ADFB697418C1359D83 /* TLBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6726B8B682860013E854EFA44BC8B8B0 /* TLBundle.swift */; };
-		44940FDEB12DD96D1D63746D535D6906 /* ActionSheetAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3800068A840E6F822182F059D0456163 /* ActionSheetAppearance.swift */; };
-		552BFEAB08EC363FD13D0547EDAA93A4 /* APESuperHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F67560D01031C67451DF6FAC36A4F78 /* APESuperHUD.swift */; };
-		57028834B141028D581FAC9715A590F5 /* TLCollectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A28A0005E8A3B78B1F34EB3887326EA /* TLCollectionTableViewCell.xib */; };
-		5BF972D1741B346B5536F345C46940F2 /* FrameworkMedia.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CC14037D84E369B971598F5F47DD0FE /* FrameworkMedia.xcassets */; };
-		5C58359EBAE1D71B5A68DF780973400D /* TLPhotoPickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6E53F860A1ABE530CCACC7465EEC8E51 /* TLPhotoPickerController.bundle */; };
-		607E8E703E00BA4DF2C88F789AA882EC /* TLAssetsCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453E9E40FB5DF39826813FE4829D7319 /* TLAssetsCollection.swift */; };
-		60F1B919992062B426164BF671F3B0B0 /* ActionSheetTitleAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F95BE87FCA6263B1D12D398F2CDB8C1 /* ActionSheetTitleAppearance.swift */; };
-		61A09250436520CA4247E5ED066D88D8 /* ActionSheetTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A21C288B9FA34688AC7FB2C1E5F1743 /* ActionSheetTitle.swift */; };
-		633A5270718F11205B0B9661A4879E71 /* TLPhotoPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE5E29FE61C80B185B4297D2229E35CC /* TLPhotoPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6707F9F703E34EF1782F44966F1F029D /* TLAlbumPopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5D01573E7B0D55A48F99CFEF19B923 /* TLAlbumPopView.swift */; };
-		6D9056E8767756FC0053F7024CD86AC2 /* TLPhotoPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 46EE28C3CB688617AB392416DF6B7BFF /* TLPhotoPicker.bundle */; };
-		6FF9DA9D518BA092CC5047EF2D2E3DEF /* ActionSheetCustomItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B02A081AD542E5A5115C36AC9D93B32 /* ActionSheetCustomItem.swift */; };
-		73588EED1DC525184E9F0D6818A9166D /* HudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7970CFAAE31B0747C4FE9C8E4B39AC9 /* HudView.swift */; };
-		73962EE16C2D95CEDA65D9F270CA7370 /* ActionSheetSectionTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9C2A5E87FAAB9C5B129C3D11EBBB20 /* ActionSheetSectionTitle.swift */; };
-		75E46832E18915E9CD7190F988F7F80C /* ActionSheetItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4204683F922686CE295492EDDCF6BE77 /* ActionSheetItem.swift */; };
+		018B27833359EBB248005E32AD20C508 /* ActionSheetSectionTitleAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91FF913B73175BBFC29F44B02D1CC854 /* ActionSheetSectionTitleAppearance.swift */; };
+		097F8152860DE1D9E8C1225CC8E66B11 /* ActionSheetItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8393E62F7F460493CD78758984B703B1 /* ActionSheetItem.swift */; };
+		099164EBE6375D39148BAE59AF08F742 /* TLPhotoLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027064737144F7D18E83C3B29259C9BC /* TLPhotoLibrary.swift */; };
+		0E9F3E0A9205AF5AB6FB711B3B48BD01 /* HudAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C03B5764673190F8419641E26A3DE8 /* HudAppearance.swift */; };
+		128103D53D7BCCCDCF0C2CAC818E4A82 /* ActionSheetCollectionItemAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4D408671042BFB2C249801792D1D75 /* ActionSheetCollectionItemAppearance.swift */; };
+		1D43D37076149339963E1CF375D95B6E /* ActionSheetSelectItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E07532104A7DE2269B9CB89D48E8FA2 /* ActionSheetSelectItem.swift */; };
+		22764CF797045387B80EAB7C2B985D7C /* TLPhotosPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09217C5FD136E2965350D26160773716 /* TLPhotosPickerViewController.swift */; };
+		231BF2EFC23720FCEEA2D59F909653D9 /* ActionSheetItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BA93547883454D603885F260DA0E37 /* ActionSheetItemCell.swift */; };
+		23CE2C82B65C0C4FCBF7493FCBD4F593 /* ActionSheetCancelButtonAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28CE90B88CCF7E9DF398B4530A1AB17 /* ActionSheetCancelButtonAppearance.swift */; };
+		3015CA487685F84A87486A4D507A6F5D /* ActionSheetSectionMarginAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113A6C6A869D20F813216D9B5D0E739E /* ActionSheetSectionMarginAppearance.swift */; };
+		366623CC5665BCDD219E94A46738BFA6 /* ActionSheet+Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002509573D75AC560EA12ECA0FACB947 /* ActionSheet+Presenter.swift */; };
+		3829E29DA41C265AFD27D86CB1A8A976 /* ActionSheetSectionTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9339A09162E75396215F7949BFD33EA /* ActionSheetSectionTitle.swift */; };
+		383C9C493BAE530B7013C7CF875041F5 /* APESuperHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E62860C17A8265CD72D2D3E543A009D5 /* APESuperHUD-dummy.m */; };
+		3BB3163813BFCFDFB9FA3ED582F2072A /* ActionSheetOkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2DCC80348E2266D0C97552310E2499 /* ActionSheetOkButton.swift */; };
+		3C375C8D8D0E6FE38E266A6BA33F392F /* ActionSheetMargin.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB8EC2701190F12B8160BC5726A3E9D /* ActionSheetMargin.swift */; };
+		41C95A68E2B5AC554661E83D964D7322 /* UIApplication+Fullscreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35B882F64914A83FF9F08110720794C /* UIApplication+Fullscreen.swift */; };
+		4510C83ABC6F148878FF845396344959 /* ActionSheetLinkItemAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934BCCCC939FBB2EDA4E1437F924BA77 /* ActionSheetLinkItemAppearance.swift */; };
+		4603F30E30A0873B50C050F6C630005B /* ActionSheetDangerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860F65492A46702DE1D47D9D937D771A /* ActionSheetDangerButton.swift */; };
+		4A9858CD8BF3754DC3C69A1FCC13F513 /* ActionSheetItemHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D621AD93A8D66A83D23AF45AD7FE93B1 /* ActionSheetItemHandler.swift */; };
+		4C88E4F5C699FF5DCDFCA8EA0C1A9FCA /* TLPhotosPickerViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 4065BAC487964C696ACDBB25B898276E /* TLPhotosPickerViewController.xib */; };
+		541701DBF83D0B10C8AA60B519E5EA6B /* ActionSheetSingleSelectItemAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163207AD41BE2B917603135C62D4B12B /* ActionSheetSingleSelectItemAppearance.swift */; };
+		552BFEAB08EC363FD13D0547EDAA93A4 /* APESuperHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = E682A687C779EE4ECF1ABE1C2A6D5B75 /* APESuperHUD.swift */; };
+		56314B88D2BF8753CE3259FF15C4C884 /* UIViewController+RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C02F0C95657C1E755CC8F87CF4EF3C /* UIViewController+RootViewController.swift */; };
+		591578C285AF14E92684F1400D1727CB /* ActionSheetLinkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E392C5B924653FDDDBBCC856EFEB70C1 /* ActionSheetLinkItem.swift */; };
+		5A349958735C23BE74F49FB648DCA368 /* TLPhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEFCEF0F8132D4CBF605B988F98E92D /* TLPhotoCollectionViewCell.swift */; };
+		5BF972D1741B346B5536F345C46940F2 /* FrameworkMedia.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 952AB92FB3F1E2AF228D9B2D1D545A0F /* FrameworkMedia.xcassets */; };
+		5DF00BB5B4D38EFBBEB8A88C8214A453 /* NSObject+ClassName.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E675A86697EF6AA1DC1A7EF5B9AD18 /* NSObject+ClassName.swift */; };
+		5E69E95C40D307DA1C0925C19A285A2B /* ActionSheetStandardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B253069D8EB2E296DDF2AE807082EE4 /* ActionSheetStandardPresenter.swift */; };
+		5F88C3F59C1D79EA14087A05971AB33D /* ActionSheetTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB554F0F506598DA044B2F6D5F804126 /* ActionSheetTableView.swift */; };
+		5FDA65C2DF3936D65936BA4F0F911CB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
+		65EDC277B57857610D36C2D3A2C25716 /* ActionSheetCollectionItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D68BE34441427F563FAA37836C76C3F /* ActionSheetCollectionItemCell.xib */; };
+		665C88141621F0193AB189E0BC161EB6 /* ActionSheetCustomItemAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B59834935DAF991DAAE0F8A929CE72 /* ActionSheetCustomItemAppearance.swift */; };
+		6829CCA2F41B65376F17DB66FB698A87 /* ActionSheetCustomItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DC451EA32E77A4517352145096F15D /* ActionSheetCustomItemCell.swift */; };
+		69485F4269BCF7BAD3ADED2712787A6E /* ActionSheetSectionMargin.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5438A739434D07A4E984873EDF6B709 /* ActionSheetSectionMargin.swift */; };
+		69568FC3C910E77C2F5EECBAE7342576 /* TLPhotosPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4065BAC487964C696ACDBB25B898276E /* TLPhotosPickerViewController.xib */; };
+		6C641D731377C9A8A19D711111271FD4 /* TLCollectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A1E28876CAC0E0F56E268E653B39D72 /* TLCollectionTableViewCell.xib */; };
+		706DF86DE6BBB9A31BDF4D553D9B7E3B /* ActionSheetOkButtonAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC36DFF91F4B4729DCF13B9D667E88C /* ActionSheetOkButtonAppearance.swift */; };
+		70CC08C141BD7CFD831C89C173AA3DCF /* ActionSheetCollectionItemContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F43D5EA77E09DF5F6ECFC9B6D05FFB /* ActionSheetCollectionItemContentCell.swift */; };
+		73588EED1DC525184E9F0D6818A9166D /* HudView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3E92D864D5E8F1E1F4CFD526081ADB /* HudView.swift */; };
+		73674115AB683946DF08E539D5D3A7F0 /* ActionSheetPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62904D466E9EC3934703FCCF902D88EE /* ActionSheetPresenter.swift */; };
+		743F3144C477CB75066F68528D168C73 /* ActionSheetDangerButtonAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24A9AEB39EB0F3397D973B546F2DA5E4 /* ActionSheetDangerButtonAppearance.swift */; };
 		76EE36BD079421A2C69774B6E57B3345 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74E404AA6957590324067E330E0EC533 /* UIKit.framework */; };
-		7C8A557478DACF1D2E915EB334AE5FB4 /* Sheeeeeeeeet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3668E8E5546F978E46C4E32CCE45795B /* Sheeeeeeeeet-dummy.m */; };
-		7E4C0414BF6C448A7977FDAA222575A2 /* UIViewController+RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D18401EA73DC59CAD7C2899E59CD37 /* UIViewController+RootViewController.swift */; };
-		7E911CCA9A09BD6EE86883D842A2BD86 /* ActionSheetSelectItemAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72AAC240BDECA7D116F43C20E380F61C /* ActionSheetSelectItemAppearance.swift */; };
-		82A095DBB9B15BA4AF70928CB396A20A /* ActionSheetSectionMarginAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE10C2F251A8AAEB205A8EA67EF60061 /* ActionSheetSectionMarginAppearance.swift */; };
-		8516B4E324856D31FB551E1E07946158 /* ActionSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 354900198730AD26D2FD9D65000483A5 /* ActionSheet.xib */; };
-		87350172EBD580D955B0A18D75845504 /* ActionSheet+Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCED052CCED68F59E73E3D9ADCBEEA04 /* ActionSheet+Presenter.swift */; };
-		88F5B467A3106614727C797268C72D40 /* APESuperHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EC99037BD43EED13BD27B41A50629D6 /* APESuperHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B64E40AB892FE7209E7C15932C48238 /* TLCollectionTableViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 4A28A0005E8A3B78B1F34EB3887326EA /* TLCollectionTableViewCell.xib */; };
-		8C93171B80D6557C7DB29E11C018151A /* TLPhotoPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 129A1D5ED9BB0750673EBB56D8DE8A16 /* TLPhotoPicker-dummy.m */; };
-		8EA67B0E3474E32699CB456B263FDE45 /* ActionSheetCollectionItemAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D4C3ED8A89D9DDA22A088DF7D18300 /* ActionSheetCollectionItemAppearance.swift */; };
-		8F37144CBE73169B659E66A4C66DCF14 /* ActionSheetButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D603041B330209ECC2709B9DF03451 /* ActionSheetButton.swift */; };
-		9107FCCFF1596F57DC5642861E940C9B /* ActionSheetCollectionItemContentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD3A6F2470EE662C6AA9AA53CE058E1 /* ActionSheetCollectionItemContentCell.swift */; };
-		923EE3AB0F6B716A5440AEA3F49F83C5 /* ActionSheetSingleSelectItemAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586B71EA933D10D34F14772B32379BBC /* ActionSheetSingleSelectItemAppearance.swift */; };
-		93548714FB1D9AAC48808378CF3A5094 /* Sheeeeeeeeet-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C1D8ACE122EC4D423F6A7FE056DE871 /* Sheeeeeeeeet-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		98634A0E252F13F9DE917822D05370A5 /* ActionSheetCancelButtonAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 115D2F0B36FF972403D798EDDC90197A /* ActionSheetCancelButtonAppearance.swift */; };
-		98ED911276C6EBBF942740632E804960 /* ActionSheetStandardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE525A859FE7E7BC3F18FFEB1D12CFD /* ActionSheetStandardPresenter.swift */; };
-		9999FE265383BD1D2F436BEE2383F51D /* ActionSheetButtonAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38F842BA403AEEBAA41372EF31E2AE8 /* ActionSheetButtonAppearance.swift */; };
-		9A84E410A841D62804256C40E59A847D /* ActionSheetMargin.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7D08AD341050AD5F3776DFCE431C1D /* ActionSheetMargin.swift */; };
-		9B27CD2A9313D555E212BAE46BB5EFC8 /* ActionSheetItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079130E45810CCEB7113E9AAB1E63C26 /* ActionSheetItemCell.swift */; };
-		A196D6F83BA5417D4EB229E559B08662 /* NSObject+ClassName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A5B219B80E93831D2B94CCB692B717 /* NSObject+ClassName.swift */; };
-		A271FEF35CFAFCCC7B75FC3EC1175D6B /* TLPhotosPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D0AA8B93FE61010C32E7668A40EBF2 /* TLPhotosPickerViewController.swift */; };
-		A7E0EBF0985E83FBE6FE9274F6D7AF42 /* Pods-Stickify-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DAC2EC1FC44972D362B3410977876B6 /* Pods-Stickify-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AAC243BA72F1F3E4A93484BEAEABFCF4 /* ActionSheetPopoverPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7945F7D395AA633A8CB131C03D803EB2 /* ActionSheetPopoverPresenter.swift */; };
-		AC0D8F97324407399E99C11A61C406D7 /* ActionSheetCustomItemAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DCF753045AE4BB58108FC0AFE12B13 /* ActionSheetCustomItemAppearance.swift */; };
-		B1BEDB5FDDD4897FF102409A9634A6F5 /* LoadingMessagesHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADF4B64D64EBBBC5E5D10B252000CAD /* LoadingMessagesHandler.swift */; };
-		B6B5DE5638857BFE6CAE1C3A0CFC7E16 /* ActionSheetCancelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6721BF1202B8ECF76B5263002D9582 /* ActionSheetCancelButton.swift */; };
-		B9B64019AC21A0794D5E611DE6C56964 /* ActionSheetSectionTitleAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831804E34A9C2982745FFD96ACFDFF5F /* ActionSheetSectionTitleAppearance.swift */; };
-		BADBADDD5EA36FE5CF1F1F28B5AC56F9 /* ActionSheetMultiSelectToggleItemAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74416F8AFFD98A30EAA3B8429A6F900D /* ActionSheetMultiSelectToggleItemAppearance.swift */; };
-		BD0B0351082E6A69B3E8889F6E94D331 /* ActionSheetSelectItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D863A2171F9E676D07374B67AE3670 /* ActionSheetSelectItem.swift */; };
-		BD2D6748A1E9F2676F12135186C2062D /* ActionSheetPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D219D7297A409CB7E66F602C47C00F17 /* ActionSheetPresenter.swift */; };
-		C1A69F0C40A7F5925A11A8BB4BEF4E28 /* Pods-Stickify-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE6D79592EB7AB1573A9683D4AD87D2 /* Pods-Stickify-dummy.m */; };
-		C3B3722CDEB290EA6CDF025BA235E6FA /* ActionSheetTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35B92DCDEBD6A81FB2B44F500CDAAC2 /* ActionSheetTableView.swift */; };
-		C9E0059557D94BE5110170BAAE027BC4 /* ActionSheetDangerButtonAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38CE8B1DCBE7DA60F27704706E3011B6 /* ActionSheetDangerButtonAppearance.swift */; };
-		CA8EB18D99F66D6152ABF56D16918C13 /* UIView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A7F644EB591A359D5C31BF212A69A9 /* UIView+Nib.swift */; };
-		CBCFA5450E88AE61C3104135F845D2A5 /* ActionSheetMultiSelectToggleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCFF940721ED563FDA372A7E9CDE6FE /* ActionSheetMultiSelectToggleItem.swift */; };
-		CC8A9B9611B5E40086A4AAAB18F87A5E /* TLPhotosPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 919BF3221E68AB37E94C8F43064E4CFA /* TLPhotosPickerViewController.xib */; };
-		CCE97F5763210598B45C3A6441DC43AD /* ActionSheetMultiSelectItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEB7D396DFBAB086D3F5E36A546FC5D4 /* ActionSheetMultiSelectItem.swift */; };
-		D02B49261662274F0FCBBA95E82FC776 /* ActionSheetOkButtonAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC7DC52ACB97955187F103D1FE6EECF /* ActionSheetOkButtonAppearance.swift */; };
-		D4F45912DE1C95FBC226205F556BFEA0 /* ActionSheetSectionMargin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690AE62731FE906DFA7D9C77ECC371E8 /* ActionSheetSectionMargin.swift */; };
+		7F680281F8CBD3F2683576C928C01EC1 /* Sheeeeeeeeet-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA776BD2F53FF63895D0B3E4671058B8 /* Sheeeeeeeeet-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		813ABDC3FFE8EEB44EBA851CAEBCD7BE /* Pods-Stickify-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4403097BAFF02E97582B33729A32BC /* Pods-Stickify-dummy.m */; };
+		82810963827CA2C35B473E0DD34331E8 /* ActionSheetMultiSelectItemAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D82C0E02EE560FBE3D83EF0355F5AC9 /* ActionSheetMultiSelectItemAppearance.swift */; };
+		874507AA4D77FEAFAB57C1FA810AFC99 /* ActionSheetPopoverAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B42D0295E83F1481DDCBFAE1D2F1F6 /* ActionSheetPopoverAppearance.swift */; };
+		88F5B467A3106614727C797268C72D40 /* APESuperHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 907AF6EEAD2250277F0C16D8B9B24EEA /* APESuperHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		917DB27AB4C36496AB3AC22A8A7F7BB3 /* UIView+Nib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CB4D2549CF69D9F7E0F84B6B5CE524D /* UIView+Nib.swift */; };
+		96C715BFC5A07858E2C05C0F8892CEEB /* ActionSheetTitleAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F53A826BFC881E828A47EFB7AA6B35 /* ActionSheetTitleAppearance.swift */; };
+		A0A2408A3D17408BA6B8F8BDF783F884 /* ActionSheetSelectItemAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85323C90E3A2BFAF9F02EF89AD21CF46 /* ActionSheetSelectItemAppearance.swift */; };
+		A35F9158C7067C273F6E51AFBE6EBCB5 /* TLPhotoPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4837154903D3A9797505229DA5B77A4 /* TLPhotoPicker-dummy.m */; };
+		A5FA2A2F5FB414D0E953A385E6EAB33F /* ActionSheetCustomItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57244C253865DF658A1F89FE9805C3F /* ActionSheetCustomItem.swift */; };
+		AA144B431B33538926D31D21CC2B98CA /* ActionSheetButtonAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = C220447BF183B341436D2EC83D3E866C /* ActionSheetButtonAppearance.swift */; };
+		AE74DD970376DE5225290034796C0B38 /* Pods-Stickify-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0423B1B1E74F50EDC7CEFC422B4D692A /* Pods-Stickify-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEB44B30B48D86FB65C350011D09640C /* ActionSheetItemAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2811C014CC830CE3A47CDAB73490319 /* ActionSheetItemAppearance.swift */; };
+		B1BEDB5FDDD4897FF102409A9634A6F5 /* LoadingMessagesHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3911ABF96C5248294702F737F24934 /* LoadingMessagesHandler.swift */; };
+		B63C77FE3E33A3B580811DE491406CED /* TLBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9037251EAE7653A5E5E217CB330E7702 /* TLBundle.swift */; };
+		B688E1051725E81AB6D36DEF32C9DBDC /* ActionSheetMultiSelectToggleItemAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = A043FBAEAF4C36CAA68730A9C56DB160 /* ActionSheetMultiSelectToggleItemAppearance.swift */; };
+		B6E0E96346D2715F8C77FC40EF28B2F0 /* ActionSheetButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD0C1115B092A8868DC0E1C0FCBBC2B /* ActionSheetButton.swift */; };
+		B8DE05D96BCB246FFA2B8F7F60F21CA6 /* TLCollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2008E3FA23525EDB481DAD2BB34E7EE8 /* TLCollectionTableViewCell.swift */; };
+		BA1EC6FD543D9792521F701E75ED53AB /* ActionSheetCancelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8E6924F5973B261FA00214EC42F889 /* ActionSheetCancelButton.swift */; };
+		BC738207DE1DE5764D241E82C8703F48 /* ActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F97F2C84B9553EAF17C1EEE751F49FE /* ActionSheet.swift */; };
+		C1A43090D3392214E5949342BE539231 /* TLCollectionTableViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 1A1E28876CAC0E0F56E268E653B39D72 /* TLCollectionTableViewCell.xib */; };
+		C56DCA63F7E290F895521BF1DEFFE2D7 /* TLPhotoPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB5139D94BA5E11EE775DF9AD0ED9CFF /* TLPhotoPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C73CF9F33B685BCA49F2AB05BCB167B8 /* TLPhotoPickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AC7D9CFB50AF451A9ADFA6B8511CBEF2 /* TLPhotoPickerController.bundle */; };
+		C7458DDBE3CB184F8FB241E3A0FA45AD /* ActionSheetMultiSelectItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE56B5CFEC1B9BDFEB3916DB29800A3 /* ActionSheetMultiSelectItem.swift */; };
+		C9F97A8A8A6ED141DD498B30B808EF33 /* Sheeeeeeeeet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C771295B37C64DBED6AB9D48E4EA208E /* Sheeeeeeeeet-dummy.m */; };
+		CA6BF8551987ED0F93C89B43EAFF2F86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
+		CAC3D95100F5320C1141EB8FE2A13565 /* TLAlbumPopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A50F592BD258ABDA7D534AB27B3C8DA /* TLAlbumPopView.swift */; };
+		CCD6CC726D90E5A554858DD3A8F87E14 /* ActionSheetPopoverPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F330ECB2050FE2E1B8B7AAE1D030D4C /* ActionSheetPopoverPresenter.swift */; };
+		D15D810D132B44F745F2B8F06775D4E9 /* ActionSheetTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB13475DDF3D193161E1758E1D0A9A9A /* ActionSheetTitle.swift */; };
+		D383A8BFF8295283C4910FA8C6ACA884 /* ActionSheetSingleSelectItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544779CF1A05A48231E42C24228F689D /* ActionSheetSingleSelectItem.swift */; };
+		D49499B63E34E772AC90D720E49C84A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
+		D572A2B6E4BA9B470E3A3B95DBDA81AC /* TLPhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EA7AE8D0FC55766730CC4592F1A3B39 /* TLPhotoCollectionViewCell.xib */; };
+		D9306160809C334943AD2D7B7BA9A352 /* TLPhotoCollectionViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 7EA7AE8D0FC55766730CC4592F1A3B39 /* TLPhotoCollectionViewCell.xib */; };
 		DFEC61AE004A47F25A2729CBC8DA5424 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
-		E3D4097403E5CF68C5CF89EC34B268CA /* ActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E529CEC30086BFE626B2D1DCF5C1F49B /* ActionSheet.swift */; };
-		E46535CCD03E6DEC8481CFBD555E0A90 /* ActionSheetCustomItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7F4AF8C69EFAFEEB04837F3525AE68 /* ActionSheetCustomItemCell.swift */; };
-		EBFFE38D1364D935BAE0E0B30919E50C /* ActionSheetOkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7475BC0C87E0FE73258E213147D3CDD6 /* ActionSheetOkButton.swift */; };
-		EE581DDE08CB79431CB567D3C085E2C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */; };
-		F684215C305AD1D58393D020E5B8A13E /* ActionSheetSingleSelectItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D4BD5596049657C19B7640438EAEC0 /* ActionSheetSingleSelectItem.swift */; };
-		F6D35BD745C07D8BBFC99162C1520C37 /* ActionSheetItemHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9848FD364DBE9E29F08353EEC6570D82 /* ActionSheetItemHandler.swift */; };
-		FDFEA5EC6981387231DEA14D986A91F9 /* ActionSheetPopoverAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = E65F295205754691E2423841B0860438 /* ActionSheetPopoverAppearance.swift */; };
-		FF774E8FCF739532A7D29275106B99BD /* APESuperHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 84B7BA85593FC973CF39BAD81601C907 /* APESuperHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E32915A32DD53CF58ABD2CC745DC7DA1 /* ActionSheetAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BC5ED0F61C99C8045DB92FF3FB6A72 /* ActionSheetAppearance.swift */; };
+		EB7CA46D788597E5FAAB231FD5DE981E /* TLPhotoPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 46EE28C3CB688617AB392416DF6B7BFF /* TLPhotoPicker.bundle */; };
+		F404232F50B0BFBA7ADE6CB3054262F4 /* ActionSheetCollectionItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9C13D457860BECEF6DB2707D70E6F1 /* ActionSheetCollectionItemCell.swift */; };
+		FA7501F069B78BD871138BA8CA2AA1DE /* TLAssetsCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9489C4E9758649B6AABDF8CCB970845E /* TLAssetsCollection.swift */; };
+		FC2AC83258A4AC01CFF86259961F7D59 /* ActionSheetMultiSelectToggleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E6F2721631AFE18DAD0C20B6928B28 /* ActionSheetMultiSelectToggleItem.swift */; };
+		FD52B24AB5FD998FE247FB92A622828F /* ActionSheetCollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45777A6C1B8D925EB63803A6CF0D8865 /* ActionSheetCollectionItem.swift */; };
+		FDAEC7307D20201342092697A45657ED /* ActionSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 889C419DDE2E5665ED6C11732DF16C46 /* ActionSheet.xib */; };
+		FF0E1A2C611650C9DC01A292C3A3E0BF /* UIView+Subviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4102E530274D292DA827AA7C4811704B /* UIView+Subviews.swift */; };
+		FF774E8FCF739532A7D29275106B99BD /* APESuperHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = CE787622F5A71C62C8A2A83C39EB224A /* APESuperHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0DBB8EE89FEC7FDF851B6E5C189DCE53 /* PBXContainerItemProxy */ = {
+		114BDD6939CEC85AE896CC517C8EC1A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5D08464FB15DEB02805ED76D7EAA2FB;
+			remoteInfo = TLPhotoPicker;
+		};
+		167EFE000B83A19CC3ECDEEEFDBB9127 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FE88A44BF538A4A9E2F0F40BC66A20C;
+			remoteInfo = Sheeeeeeeeet;
+		};
+		27B7049E0DDE587CE9D64927467842DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77A5B26F5D75FBCD6D90140B70A9A06D;
+			remoteInfo = "TLPhotoPicker-TLPhotoPicker";
+		};
+		82947F77175263F6CAE4409FCA52A4B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB0F54FE10F679266684FAAB6DA72162;
+			remoteInfo = SwiftLint;
+		};
+		B092CF721D0E04813960E82219DDE393 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F60AE12EF32D99B0590B7AB2D021E26F;
+			remoteInfo = TinyCrayon;
+		};
+		E898ADC97310E0D2D9A7642199AAA36B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 713C6EFC9DFA210DD59FE576ED4D36CB;
 			remoteInfo = APESuperHUD;
 		};
-		433C04645F3A3A4A061EAB2A0A1B6BE5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FB9797983303FD0B8ADFF348538B7AD3;
-			remoteInfo = "TLPhotoPicker-TLPhotoPicker";
-		};
-		D25B66F11C8E77CA777B7CF465B0BD5D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EDC20D918EE65C9C34C9380E0C05805A;
-			remoteInfo = TLPhotoPicker;
-		};
-		F154558E145CACB98F2B0B9D4CEB4492 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1B95F981E17B175B001646636FFD4E16;
-			remoteInfo = Sheeeeeeeeet;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		044C3E1CE8597EBCD5FA0D1C7EC352CF /* Pods-Stickify.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Stickify.modulemap"; sourceTree = "<group>"; };
-		079130E45810CCEB7113E9AAB1E63C26 /* ActionSheetItemCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetItemCell.swift; path = Sheeeeeeeeet/Views/ActionSheetItemCell.swift; sourceTree = "<group>"; };
-		08D18401EA73DC59CAD7C2899E59CD37 /* UIViewController+RootViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+RootViewController.swift"; path = "Sheeeeeeeeet/Extensions/UIViewController+RootViewController.swift"; sourceTree = "<group>"; };
-		0A65B913D82DD946D0376D1981C8359A /* Sheeeeeeeeet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Sheeeeeeeeet.xcconfig; sourceTree = "<group>"; };
-		115D2F0B36FF972403D798EDDC90197A /* ActionSheetCancelButtonAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetCancelButtonAppearance.swift; path = Sheeeeeeeeet/Appearance/Buttons/ActionSheetCancelButtonAppearance.swift; sourceTree = "<group>"; };
-		12003681EFFFC948DB95E0C0CCCE6276 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		129A1D5ED9BB0750673EBB56D8DE8A16 /* TLPhotoPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TLPhotoPicker-dummy.m"; sourceTree = "<group>"; };
-		1AD5C8E11079FDE370DCB15CC20553E8 /* Pods_Stickify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Stickify.framework; path = "Pods-Stickify.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1DD76239B1D46DE7CFF1748C1BBA224D /* ResourceBundle-TLPhotoPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TLPhotoPicker-Info.plist"; sourceTree = "<group>"; };
-		1F95BE87FCA6263B1D12D398F2CDB8C1 /* ActionSheetTitleAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetTitleAppearance.swift; path = Sheeeeeeeeet/Appearance/Titles/ActionSheetTitleAppearance.swift; sourceTree = "<group>"; };
-		25A5B219B80E93831D2B94CCB692B717 /* NSObject+ClassName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+ClassName.swift"; path = "Sheeeeeeeeet/Extensions/NSObject+ClassName.swift"; sourceTree = "<group>"; };
-		284FC030652C98E985FF9523233A1CAC /* ActionSheetLinkItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetLinkItem.swift; path = Sheeeeeeeeet/Items/Items/ActionSheetLinkItem.swift; sourceTree = "<group>"; };
-		29D31AC6AF75123A0751C73A05BD9547 /* UIApplication+Fullscreen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIApplication+Fullscreen.swift"; path = "Sheeeeeeeeet/Extensions/UIApplication+Fullscreen.swift"; sourceTree = "<group>"; };
-		2B02A081AD542E5A5115C36AC9D93B32 /* ActionSheetCustomItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetCustomItem.swift; path = Sheeeeeeeeet/Items/Items/ActionSheetCustomItem.swift; sourceTree = "<group>"; };
-		2CC14037D84E369B971598F5F47DD0FE /* FrameworkMedia.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = FrameworkMedia.xcassets; path = Resources/FrameworkMedia.xcassets; sourceTree = "<group>"; };
-		2DAC2EC1FC44972D362B3410977876B6 /* Pods-Stickify-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Stickify-umbrella.h"; sourceTree = "<group>"; };
-		2DFC803A44EBEE2119FB6439C4545F1F /* ActionSheetCollectionItemCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ActionSheetCollectionItemCell.xib; path = Sheeeeeeeeet/Views/ActionSheetCollectionItemCell.xib; sourceTree = "<group>"; };
-		2EB5B67605BEE73953F45F7A9B99485C /* Pods-Stickify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Stickify.debug.xcconfig"; sourceTree = "<group>"; };
+		002509573D75AC560EA12ECA0FACB947 /* ActionSheet+Presenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ActionSheet+Presenter.swift"; path = "Sheeeeeeeeet/ActionSheet/ActionSheet+Presenter.swift"; sourceTree = "<group>"; };
+		027064737144F7D18E83C3B29259C9BC /* TLPhotoLibrary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLPhotoLibrary.swift; path = TLPhotoPicker/Classes/TLPhotoLibrary.swift; sourceTree = "<group>"; };
+		0423B1B1E74F50EDC7CEFC422B4D692A /* Pods-Stickify-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Stickify-umbrella.h"; sourceTree = "<group>"; };
+		05DC451EA32E77A4517352145096F15D /* ActionSheetCustomItemCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetCustomItemCell.swift; path = Sheeeeeeeeet/Views/ActionSheetCustomItemCell.swift; sourceTree = "<group>"; };
+		08E6F2721631AFE18DAD0C20B6928B28 /* ActionSheetMultiSelectToggleItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetMultiSelectToggleItem.swift; path = Sheeeeeeeeet/Items/Items/ActionSheetMultiSelectToggleItem.swift; sourceTree = "<group>"; };
+		09217C5FD136E2965350D26160773716 /* TLPhotosPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLPhotosPickerViewController.swift; path = TLPhotoPicker/Classes/TLPhotosPickerViewController.swift; sourceTree = "<group>"; };
+		0A50F592BD258ABDA7D534AB27B3C8DA /* TLAlbumPopView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLAlbumPopView.swift; path = TLPhotoPicker/Classes/TLAlbumPopView.swift; sourceTree = "<group>"; };
+		0CB4D2549CF69D9F7E0F84B6B5CE524D /* UIView+Nib.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Nib.swift"; path = "Sheeeeeeeeet/Extensions/UIView+Nib.swift"; sourceTree = "<group>"; };
+		0D8E6924F5973B261FA00214EC42F889 /* ActionSheetCancelButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetCancelButton.swift; path = Sheeeeeeeeet/Items/Buttons/ActionSheetCancelButton.swift; sourceTree = "<group>"; };
+		113A6C6A869D20F813216D9B5D0E739E /* ActionSheetSectionMarginAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetSectionMarginAppearance.swift; path = Sheeeeeeeeet/Appearance/Titles/ActionSheetSectionMarginAppearance.swift; sourceTree = "<group>"; };
+		12BCF2B97FFAA5E9D939DC5F02D49775 /* Pods-Stickify-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Stickify-Info.plist"; sourceTree = "<group>"; };
+		130552C65C5A6B7CF04BE847CC68616E /* Pods-Stickify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Stickify.release.xcconfig"; sourceTree = "<group>"; };
+		14B42D0295E83F1481DDCBFAE1D2F1F6 /* ActionSheetPopoverAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetPopoverAppearance.swift; path = Sheeeeeeeeet/Appearance/ActionSheetPopoverAppearance.swift; sourceTree = "<group>"; };
+		163207AD41BE2B917603135C62D4B12B /* ActionSheetSingleSelectItemAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetSingleSelectItemAppearance.swift; path = Sheeeeeeeeet/Appearance/Items/ActionSheetSingleSelectItemAppearance.swift; sourceTree = "<group>"; };
+		182BDA2316DED6DFB402E183B542AE63 /* Pods-Stickify.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Stickify.modulemap"; sourceTree = "<group>"; };
+		1A1E28876CAC0E0F56E268E653B39D72 /* TLCollectionTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TLCollectionTableViewCell.xib; path = TLPhotoPicker/Classes/TLCollectionTableViewCell.xib; sourceTree = "<group>"; };
+		1AD5C8E11079FDE370DCB15CC20553E8 /* Pods_Stickify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stickify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C9A72FA2F3FA2E2967BDD18EB2AC430 /* APESuperHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APESuperHUD-prefix.pch"; sourceTree = "<group>"; };
+		2008E3FA23525EDB481DAD2BB34E7EE8 /* TLCollectionTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLCollectionTableViewCell.swift; path = TLPhotoPicker/Classes/TLCollectionTableViewCell.swift; sourceTree = "<group>"; };
+		213C504E49D864B3DD9265755E336211 /* APESuperHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "APESuperHUD-Info.plist"; sourceTree = "<group>"; };
+		24A9AEB39EB0F3397D973B546F2DA5E4 /* ActionSheetDangerButtonAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetDangerButtonAppearance.swift; path = Sheeeeeeeeet/Appearance/Buttons/ActionSheetDangerButtonAppearance.swift; sourceTree = "<group>"; };
+		2CD0C1115B092A8868DC0E1C0FCBBC2B /* ActionSheetButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetButton.swift; path = Sheeeeeeeeet/Items/Buttons/ActionSheetButton.swift; sourceTree = "<group>"; };
 		2EFB40531CB700ADF867FEEE78561E78 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		2FC7DC52ACB97955187F103D1FE6EECF /* ActionSheetOkButtonAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetOkButtonAppearance.swift; path = Sheeeeeeeeet/Appearance/Buttons/ActionSheetOkButtonAppearance.swift; sourceTree = "<group>"; };
-		30D4BD5596049657C19B7640438EAEC0 /* ActionSheetSingleSelectItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetSingleSelectItem.swift; path = Sheeeeeeeeet/Items/Items/ActionSheetSingleSelectItem.swift; sourceTree = "<group>"; };
-		32FD8ABEDFD75E9E495D58F36987174A /* TCMask-Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TCMask-Swift.h"; path = "TCMask.framework/Headers/TCMask-Swift.h"; sourceTree = "<group>"; };
-		33495C7961BA6C1C87C49E357AF8F16E /* Pods-Stickify-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Stickify-acknowledgements.plist"; sourceTree = "<group>"; };
-		354900198730AD26D2FD9D65000483A5 /* ActionSheet.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ActionSheet.xib; path = Sheeeeeeeeet/ActionSheet/ActionSheet.xib; sourceTree = "<group>"; };
-		3627959BEABD380FB57D314E40681F74 /* TLPhotoCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLPhotoCollectionViewCell.swift; path = TLPhotoPicker/Classes/TLPhotoCollectionViewCell.swift; sourceTree = "<group>"; };
-		3668E8E5546F978E46C4E32CCE45795B /* Sheeeeeeeeet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Sheeeeeeeeet-dummy.m"; sourceTree = "<group>"; };
-		3800068A840E6F822182F059D0456163 /* ActionSheetAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetAppearance.swift; path = Sheeeeeeeeet/Appearance/ActionSheetAppearance.swift; sourceTree = "<group>"; };
-		38CE8B1DCBE7DA60F27704706E3011B6 /* ActionSheetDangerButtonAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetDangerButtonAppearance.swift; path = Sheeeeeeeeet/Appearance/Buttons/ActionSheetDangerButtonAppearance.swift; sourceTree = "<group>"; };
-		3FA8C3D0969CF5864F3F5331D822F0F0 /* APESuperHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APESuperHUD.xcconfig; sourceTree = "<group>"; };
-		41C0CD00485B1919BBFB306A9CBAB70E /* HudAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HudAppearance.swift; path = Source/HudAppearance.swift; sourceTree = "<group>"; };
-		4204683F922686CE295492EDDCF6BE77 /* ActionSheetItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetItem.swift; path = Sheeeeeeeeet/Items/ActionSheetItem.swift; sourceTree = "<group>"; };
-		453E9E40FB5DF39826813FE4829D7319 /* TLAssetsCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLAssetsCollection.swift; path = TLPhotoPicker/Classes/TLAssetsCollection.swift; sourceTree = "<group>"; };
-		45BE0CE6671A1102873630CE966B91C0 /* ActionSheetItemAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetItemAppearance.swift; path = Sheeeeeeeeet/Appearance/ActionSheetItemAppearance.swift; sourceTree = "<group>"; };
-		46EE28C3CB688617AB392416DF6B7BFF /* TLPhotoPicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TLPhotoPicker.bundle; path = "TLPhotoPicker-TLPhotoPicker.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		47DCFAFD3BF44294A29E54B3E349DF53 /* TLPhotoPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLPhotoPicker-prefix.pch"; sourceTree = "<group>"; };
-		4A28A0005E8A3B78B1F34EB3887326EA /* TLCollectionTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TLCollectionTableViewCell.xib; path = TLPhotoPicker/Classes/TLCollectionTableViewCell.xib; sourceTree = "<group>"; };
-		561180699F3749BB375CE0847FBE010B /* Pods-Stickify-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Stickify-frameworks.sh"; sourceTree = "<group>"; };
-		57D4C3ED8A89D9DDA22A088DF7D18300 /* ActionSheetCollectionItemAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetCollectionItemAppearance.swift; path = Sheeeeeeeeet/Appearance/Items/ActionSheetCollectionItemAppearance.swift; sourceTree = "<group>"; };
-		586B71EA933D10D34F14772B32379BBC /* ActionSheetSingleSelectItemAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetSingleSelectItemAppearance.swift; path = Sheeeeeeeeet/Appearance/Items/ActionSheetSingleSelectItemAppearance.swift; sourceTree = "<group>"; };
-		592B097E87BF6409CD2A430201D65CC1 /* TCCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TCCore.framework; sourceTree = "<group>"; };
-		614BB8473E006FCF6C17ECB0A28401C0 /* TLPhotoCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TLPhotoCollectionViewCell.xib; path = TLPhotoPicker/Classes/TLPhotoCollectionViewCell.xib; sourceTree = "<group>"; };
-		6726B8B682860013E854EFA44BC8B8B0 /* TLBundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLBundle.swift; path = TLPhotoPicker/Classes/TLBundle.swift; sourceTree = "<group>"; };
-		677A57F9D33A1D5A5F9D6F7EAA2B0E8E /* TLCollectionTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLCollectionTableViewCell.swift; path = TLPhotoPicker/Classes/TLCollectionTableViewCell.swift; sourceTree = "<group>"; };
-		685DD069E87F012ED5E1CF72F9184FB2 /* Pods-Stickify.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Stickify.release.xcconfig"; sourceTree = "<group>"; };
-		690AE62731FE906DFA7D9C77ECC371E8 /* ActionSheetSectionMargin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetSectionMargin.swift; path = Sheeeeeeeeet/Items/Titles/ActionSheetSectionMargin.swift; sourceTree = "<group>"; };
-		69A0299F551C8459C1F17EDB107A3DAD /* ActionSheetCollectionItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetCollectionItem.swift; path = Sheeeeeeeeet/Items/Items/ActionSheetCollectionItem.swift; sourceTree = "<group>"; };
-		6E53F860A1ABE530CCACC7465EEC8E51 /* TLPhotoPickerController.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TLPhotoPickerController.bundle; path = TLPhotoPicker/TLPhotoPickerController.bundle; sourceTree = "<group>"; };
-		6EC99037BD43EED13BD27B41A50629D6 /* APESuperHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APESuperHUD-umbrella.h"; sourceTree = "<group>"; };
-		70D0AA8B93FE61010C32E7668A40EBF2 /* TLPhotosPickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLPhotosPickerViewController.swift; path = TLPhotoPicker/Classes/TLPhotosPickerViewController.swift; sourceTree = "<group>"; };
-		72AAC240BDECA7D116F43C20E380F61C /* ActionSheetSelectItemAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetSelectItemAppearance.swift; path = Sheeeeeeeeet/Appearance/Items/ActionSheetSelectItemAppearance.swift; sourceTree = "<group>"; };
-		74416F8AFFD98A30EAA3B8429A6F900D /* ActionSheetMultiSelectToggleItemAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetMultiSelectToggleItemAppearance.swift; path = Sheeeeeeeeet/Appearance/Items/ActionSheetMultiSelectToggleItemAppearance.swift; sourceTree = "<group>"; };
-		7475BC0C87E0FE73258E213147D3CDD6 /* ActionSheetOkButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetOkButton.swift; path = Sheeeeeeeeet/Items/Buttons/ActionSheetOkButton.swift; sourceTree = "<group>"; };
+		32C02F0C95657C1E755CC8F87CF4EF3C /* UIViewController+RootViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+RootViewController.swift"; path = "Sheeeeeeeeet/Extensions/UIViewController+RootViewController.swift"; sourceTree = "<group>"; };
+		35BA93547883454D603885F260DA0E37 /* ActionSheetItemCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetItemCell.swift; path = Sheeeeeeeeet/Views/ActionSheetItemCell.swift; sourceTree = "<group>"; };
+		3AC36DFF91F4B4729DCF13B9D667E88C /* ActionSheetOkButtonAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetOkButtonAppearance.swift; path = Sheeeeeeeeet/Appearance/Buttons/ActionSheetOkButtonAppearance.swift; sourceTree = "<group>"; };
+		3BCBFAC032E06AFC2E31692A9CB5F51B /* Pods-Stickify-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Stickify-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3CEFCEF0F8132D4CBF605B988F98E92D /* TLPhotoCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLPhotoCollectionViewCell.swift; path = TLPhotoPicker/Classes/TLPhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		3D68BE34441427F563FAA37836C76C3F /* ActionSheetCollectionItemCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ActionSheetCollectionItemCell.xib; path = Sheeeeeeeeet/Views/ActionSheetCollectionItemCell.xib; sourceTree = "<group>"; };
+		3E07532104A7DE2269B9CB89D48E8FA2 /* ActionSheetSelectItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetSelectItem.swift; path = Sheeeeeeeeet/Items/Items/ActionSheetSelectItem.swift; sourceTree = "<group>"; };
+		3F4403097BAFF02E97582B33729A32BC /* Pods-Stickify-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Stickify-dummy.m"; sourceTree = "<group>"; };
+		4065BAC487964C696ACDBB25B898276E /* TLPhotosPickerViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TLPhotosPickerViewController.xib; path = TLPhotoPicker/Classes/TLPhotosPickerViewController.xib; sourceTree = "<group>"; };
+		40F53A826BFC881E828A47EFB7AA6B35 /* ActionSheetTitleAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetTitleAppearance.swift; path = Sheeeeeeeeet/Appearance/Titles/ActionSheetTitleAppearance.swift; sourceTree = "<group>"; };
+		4102E530274D292DA827AA7C4811704B /* UIView+Subviews.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Subviews.swift"; path = "Sheeeeeeeeet/Extensions/UIView+Subviews.swift"; sourceTree = "<group>"; };
+		439E4A613B694C19187642A3E5250BE0 /* Pods-Stickify-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Stickify-acknowledgements.plist"; sourceTree = "<group>"; };
+		45777A6C1B8D925EB63803A6CF0D8865 /* ActionSheetCollectionItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetCollectionItem.swift; path = Sheeeeeeeeet/Items/Items/ActionSheetCollectionItem.swift; sourceTree = "<group>"; };
+		46EE28C3CB688617AB392416DF6B7BFF /* TLPhotoPicker.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TLPhotoPicker.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A4D408671042BFB2C249801792D1D75 /* ActionSheetCollectionItemAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetCollectionItemAppearance.swift; path = Sheeeeeeeeet/Appearance/Items/ActionSheetCollectionItemAppearance.swift; sourceTree = "<group>"; };
+		4B253069D8EB2E296DDF2AE807082EE4 /* ActionSheetStandardPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetStandardPresenter.swift; path = Sheeeeeeeeet/Presenters/ActionSheetStandardPresenter.swift; sourceTree = "<group>"; };
+		4B3911ABF96C5248294702F737F24934 /* LoadingMessagesHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoadingMessagesHandler.swift; path = Source/LoadingMessagesHandler.swift; sourceTree = "<group>"; };
+		544779CF1A05A48231E42C24228F689D /* ActionSheetSingleSelectItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetSingleSelectItem.swift; path = Sheeeeeeeeet/Items/Items/ActionSheetSingleSelectItem.swift; sourceTree = "<group>"; };
+		62904D466E9EC3934703FCCF902D88EE /* ActionSheetPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetPresenter.swift; path = Sheeeeeeeeet/Presenters/ActionSheetPresenter.swift; sourceTree = "<group>"; };
+		64E4F663D40FA750E007B80ABE0F6BC1 /* SwiftLint.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.xcconfig; sourceTree = "<group>"; };
+		68D9D8DC39F885B38BBA392940782D73 /* Pods-Stickify-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Stickify-frameworks.sh"; sourceTree = "<group>"; };
+		694BF1B18BC993DEC1B826E3F3241238 /* TinyCrayon.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TinyCrayon.xcconfig; sourceTree = "<group>"; };
+		6BE56B5CFEC1B9BDFEB3916DB29800A3 /* ActionSheetMultiSelectItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetMultiSelectItem.swift; path = Sheeeeeeeeet/Items/Items/ActionSheetMultiSelectItem.swift; sourceTree = "<group>"; };
 		74E404AA6957590324067E330E0EC533 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		7945F7D395AA633A8CB131C03D803EB2 /* ActionSheetPopoverPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetPopoverPresenter.swift; path = Sheeeeeeeeet/Presenters/ActionSheetPopoverPresenter.swift; sourceTree = "<group>"; };
-		7BD25FB85C7C110C6F0EB76E2A12D9D9 /* ActionSheetMultiSelectItemAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetMultiSelectItemAppearance.swift; path = Sheeeeeeeeet/Appearance/Items/ActionSheetMultiSelectItemAppearance.swift; sourceTree = "<group>"; };
-		7C087F36A85F8245E5C4D09A486D61FB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7C1D8ACE122EC4D423F6A7FE056DE871 /* Sheeeeeeeeet-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Sheeeeeeeeet-umbrella.h"; sourceTree = "<group>"; };
-		80D860D50C20824914E8691C5FC196A4 /* TLPhotoPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TLPhotoPicker.xcconfig; sourceTree = "<group>"; };
-		831804E34A9C2982745FFD96ACFDFF5F /* ActionSheetSectionTitleAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetSectionTitleAppearance.swift; path = Sheeeeeeeeet/Appearance/Titles/ActionSheetSectionTitleAppearance.swift; sourceTree = "<group>"; };
-		8360E2138C7881EE9A849AAB7166B027 /* TCMask.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TCMask.framework; sourceTree = "<group>"; };
-		84A7F644EB591A359D5C31BF212A69A9 /* UIView+Nib.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Nib.swift"; path = "Sheeeeeeeeet/Extensions/UIView+Nib.swift"; sourceTree = "<group>"; };
-		84B7BA85593FC973CF39BAD81601C907 /* APESuperHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APESuperHUD.h; path = Source/APESuperHUD.h; sourceTree = "<group>"; };
-		84DC43C719564519B697EC8A67D181B4 /* APESuperHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APESuperHUD-prefix.pch"; sourceTree = "<group>"; };
-		8550798EC51B0A712B9BD6FD14F948FE /* Pods-Stickify-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Stickify-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8E7654544E09CE886D45A2FBDCE8577D /* ActionSheetLinkItemAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetLinkItemAppearance.swift; path = Sheeeeeeeeet/Appearance/Items/ActionSheetLinkItemAppearance.swift; sourceTree = "<group>"; };
-		919BF3221E68AB37E94C8F43064E4CFA /* TLPhotosPickerViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TLPhotosPickerViewController.xib; path = TLPhotoPicker/Classes/TLPhotosPickerViewController.xib; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9848FD364DBE9E29F08353EEC6570D82 /* ActionSheetItemHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetItemHandler.swift; path = Sheeeeeeeeet/ActionSheet/ActionSheetItemHandler.swift; sourceTree = "<group>"; };
-		9A21C288B9FA34688AC7FB2C1E5F1743 /* ActionSheetTitle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetTitle.swift; path = Sheeeeeeeeet/Items/Titles/ActionSheetTitle.swift; sourceTree = "<group>"; };
-		9AA2A4B10932ECA3EB4C6C14AAD49F26 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9AB12456E9218D1CBEE1EB4ECA465B01 /* APESuperHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = APESuperHUD.framework; path = APESuperHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F67560D01031C67451DF6FAC36A4F78 /* APESuperHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APESuperHUD.swift; path = Source/APESuperHUD.swift; sourceTree = "<group>"; };
-		A7970CFAAE31B0747C4FE9C8E4B39AC9 /* HudView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HudView.swift; path = Source/HudView.swift; sourceTree = "<group>"; };
-		ABCFF940721ED563FDA372A7E9CDE6FE /* ActionSheetMultiSelectToggleItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetMultiSelectToggleItem.swift; path = Sheeeeeeeeet/Items/Items/ActionSheetMultiSelectToggleItem.swift; sourceTree = "<group>"; };
-		B17BEDD2AA7069DCBA7D4C26F9DC7E5F /* Sheeeeeeeeet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Sheeeeeeeeet.modulemap; sourceTree = "<group>"; };
-		B45432675E7872EA6722746BE248821C /* ActionSheetCollectionItemCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetCollectionItemCell.swift; path = Sheeeeeeeeet/Views/ActionSheetCollectionItemCell.swift; sourceTree = "<group>"; };
-		B74A0FD3083A7E50F9BA494B625A6EF6 /* ActionSheetDangerButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetDangerButton.swift; path = Sheeeeeeeeet/Items/Buttons/ActionSheetDangerButton.swift; sourceTree = "<group>"; };
-		B794E917BED88E58E8B7FDC1913FCE86 /* Pods-Stickify-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Stickify-resources.sh"; sourceTree = "<group>"; };
-		BA5D01573E7B0D55A48F99CFEF19B923 /* TLAlbumPopView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLAlbumPopView.swift; path = TLPhotoPicker/Classes/TLAlbumPopView.swift; sourceTree = "<group>"; };
-		BC4CDB6702ADAEC8320FAD7E5C2AE582 /* TCMask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCMask.h; path = TCMask.framework/Headers/TCMask.h; sourceTree = "<group>"; };
-		BCE525A859FE7E7BC3F18FFEB1D12CFD /* ActionSheetStandardPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetStandardPresenter.swift; path = Sheeeeeeeeet/Presenters/ActionSheetStandardPresenter.swift; sourceTree = "<group>"; };
-		C35B92DCDEBD6A81FB2B44F500CDAAC2 /* ActionSheetTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetTableView.swift; path = Sheeeeeeeeet/ActionSheet/ActionSheetTableView.swift; sourceTree = "<group>"; };
-		C38F842BA403AEEBAA41372EF31E2AE8 /* ActionSheetButtonAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetButtonAppearance.swift; path = Sheeeeeeeeet/Appearance/Buttons/ActionSheetButtonAppearance.swift; sourceTree = "<group>"; };
-		CAE5901629783572C59C8672E44716CF /* APESuperHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = APESuperHUD.modulemap; sourceTree = "<group>"; };
-		CC7D08AD341050AD5F3776DFCE431C1D /* ActionSheetMargin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetMargin.swift; path = Sheeeeeeeeet/ActionSheet/ActionSheetMargin.swift; sourceTree = "<group>"; };
-		CCD3A6F2470EE662C6AA9AA53CE058E1 /* ActionSheetCollectionItemContentCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetCollectionItemContentCell.swift; path = Sheeeeeeeeet/Views/ActionSheetCollectionItemContentCell.swift; sourceTree = "<group>"; };
-		CD5FD7561158151A614568272331695A /* Sheeeeeeeeet-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Sheeeeeeeeet-prefix.pch"; sourceTree = "<group>"; };
-		CD6721BF1202B8ECF76B5263002D9582 /* ActionSheetCancelButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetCancelButton.swift; path = Sheeeeeeeeet/Items/Buttons/ActionSheetCancelButton.swift; sourceTree = "<group>"; };
-		CE10C2F251A8AAEB205A8EA67EF60061 /* ActionSheetSectionMarginAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetSectionMarginAppearance.swift; path = Sheeeeeeeeet/Appearance/Titles/ActionSheetSectionMarginAppearance.swift; sourceTree = "<group>"; };
-		CF7F4AF8C69EFAFEEB04837F3525AE68 /* ActionSheetCustomItemCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetCustomItemCell.swift; path = Sheeeeeeeeet/Views/ActionSheetCustomItemCell.swift; sourceTree = "<group>"; };
-		D219D7297A409CB7E66F602C47C00F17 /* ActionSheetPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetPresenter.swift; path = Sheeeeeeeeet/Presenters/ActionSheetPresenter.swift; sourceTree = "<group>"; };
-		D9D07C14B1CE5A954E5AB8B2BEA0E3EB /* TLPhotoLibrary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLPhotoLibrary.swift; path = TLPhotoPicker/Classes/TLPhotoLibrary.swift; sourceTree = "<group>"; };
-		D9DCF753045AE4BB58108FC0AFE12B13 /* ActionSheetCustomItemAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetCustomItemAppearance.swift; path = Sheeeeeeeeet/Appearance/Items/ActionSheetCustomItemAppearance.swift; sourceTree = "<group>"; };
-		DADF4B64D64EBBBC5E5D10B252000CAD /* LoadingMessagesHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoadingMessagesHandler.swift; path = Source/LoadingMessagesHandler.swift; sourceTree = "<group>"; };
-		DCED052CCED68F59E73E3D9ADCBEEA04 /* ActionSheet+Presenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ActionSheet+Presenter.swift"; path = "Sheeeeeeeeet/ActionSheet/ActionSheet+Presenter.swift"; sourceTree = "<group>"; };
-		DE5E29FE61C80B185B4297D2229E35CC /* TLPhotoPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLPhotoPicker-umbrella.h"; sourceTree = "<group>"; };
-		DEB7D396DFBAB086D3F5E36A546FC5D4 /* ActionSheetMultiSelectItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetMultiSelectItem.swift; path = Sheeeeeeeeet/Items/Items/ActionSheetMultiSelectItem.swift; sourceTree = "<group>"; };
-		E482027C0B5B5D63CCB36FCDE0BDCF22 /* APESuperHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "APESuperHUD-dummy.m"; sourceTree = "<group>"; };
-		E529CEC30086BFE626B2D1DCF5C1F49B /* ActionSheet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheet.swift; path = Sheeeeeeeeet/ActionSheet/ActionSheet.swift; sourceTree = "<group>"; };
-		E65F295205754691E2423841B0860438 /* ActionSheetPopoverAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetPopoverAppearance.swift; path = Sheeeeeeeeet/Appearance/ActionSheetPopoverAppearance.swift; sourceTree = "<group>"; };
-		E8D863A2171F9E676D07374B67AE3670 /* ActionSheetSelectItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetSelectItem.swift; path = Sheeeeeeeeet/Items/Items/ActionSheetSelectItem.swift; sourceTree = "<group>"; };
-		ED49AFE9831B017315614564E9EA0663 /* TLPhotoPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TLPhotoPicker.framework; path = TLPhotoPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE1C2F2342CE5DE670A00FAE27F147C8 /* Sheeeeeeeeet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Sheeeeeeeeet.framework; path = Sheeeeeeeeet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F48DD28B45B2F8C153701E3F55D2772B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F9D603041B330209ECC2709B9DF03451 /* ActionSheetButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetButton.swift; path = Sheeeeeeeeet/Items/Buttons/ActionSheetButton.swift; sourceTree = "<group>"; };
-		FBC72BDD3F1F7F8B2CFDCB0EF5BA6B8B /* TLPhotoPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TLPhotoPicker.modulemap; sourceTree = "<group>"; };
-		FCE6D79592EB7AB1573A9683D4AD87D2 /* Pods-Stickify-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Stickify-dummy.m"; sourceTree = "<group>"; };
-		FD64532F7E5E870E1420A130DC8D801F /* UIView+Subviews.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Subviews.swift"; path = "Sheeeeeeeeet/Extensions/UIView+Subviews.swift"; sourceTree = "<group>"; };
-		FE9C2A5E87FAAB9C5B129C3D11EBBB20 /* ActionSheetSectionTitle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetSectionTitle.swift; path = Sheeeeeeeeet/Items/Titles/ActionSheetSectionTitle.swift; sourceTree = "<group>"; };
-		FF7F94A8DC8AD80129A19DD5E9088E60 /* TCCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCCore.h; path = TCCore.framework/Headers/TCCore.h; sourceTree = "<group>"; };
+		7D17313D7213B1E335200930553AB6AC /* APESuperHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = APESuperHUD.modulemap; sourceTree = "<group>"; };
+		7EA7AE8D0FC55766730CC4592F1A3B39 /* TLPhotoCollectionViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TLPhotoCollectionViewCell.xib; path = TLPhotoPicker/Classes/TLPhotoCollectionViewCell.xib; sourceTree = "<group>"; };
+		81A8009B4DFE41A086159EBFAF5CF52E /* TCMask-Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TCMask-Swift.h"; path = "TCMask.framework/Headers/TCMask-Swift.h"; sourceTree = "<group>"; };
+		8393E62F7F460493CD78758984B703B1 /* ActionSheetItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetItem.swift; path = Sheeeeeeeeet/Items/ActionSheetItem.swift; sourceTree = "<group>"; };
+		85323C90E3A2BFAF9F02EF89AD21CF46 /* ActionSheetSelectItemAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetSelectItemAppearance.swift; path = Sheeeeeeeeet/Appearance/Items/ActionSheetSelectItemAppearance.swift; sourceTree = "<group>"; };
+		860F65492A46702DE1D47D9D937D771A /* ActionSheetDangerButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetDangerButton.swift; path = Sheeeeeeeeet/Items/Buttons/ActionSheetDangerButton.swift; sourceTree = "<group>"; };
+		889C419DDE2E5665ED6C11732DF16C46 /* ActionSheet.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ActionSheet.xib; path = Sheeeeeeeeet/ActionSheet/ActionSheet.xib; sourceTree = "<group>"; };
+		8A3E92D864D5E8F1E1F4CFD526081ADB /* HudView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HudView.swift; path = Source/HudView.swift; sourceTree = "<group>"; };
+		8F97F2C84B9553EAF17C1EEE751F49FE /* ActionSheet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheet.swift; path = Sheeeeeeeeet/ActionSheet/ActionSheet.swift; sourceTree = "<group>"; };
+		9037251EAE7653A5E5E217CB330E7702 /* TLBundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLBundle.swift; path = TLPhotoPicker/Classes/TLBundle.swift; sourceTree = "<group>"; };
+		903A1F00C36721220259BC02BFDC09F8 /* Pods-Stickify.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Stickify.debug.xcconfig"; sourceTree = "<group>"; };
+		907AF6EEAD2250277F0C16D8B9B24EEA /* APESuperHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APESuperHUD-umbrella.h"; sourceTree = "<group>"; };
+		91FF913B73175BBFC29F44B02D1CC854 /* ActionSheetSectionTitleAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetSectionTitleAppearance.swift; path = Sheeeeeeeeet/Appearance/Titles/ActionSheetSectionTitleAppearance.swift; sourceTree = "<group>"; };
+		92F43D5EA77E09DF5F6ECFC9B6D05FFB /* ActionSheetCollectionItemContentCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetCollectionItemContentCell.swift; path = Sheeeeeeeeet/Views/ActionSheetCollectionItemContentCell.swift; sourceTree = "<group>"; };
+		934BCCCC939FBB2EDA4E1437F924BA77 /* ActionSheetLinkItemAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetLinkItemAppearance.swift; path = Sheeeeeeeeet/Appearance/Items/ActionSheetLinkItemAppearance.swift; sourceTree = "<group>"; };
+		9489C4E9758649B6AABDF8CCB970845E /* TLAssetsCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TLAssetsCollection.swift; path = TLPhotoPicker/Classes/TLAssetsCollection.swift; sourceTree = "<group>"; };
+		952AB92FB3F1E2AF228D9B2D1D545A0F /* FrameworkMedia.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = FrameworkMedia.xcassets; path = Resources/FrameworkMedia.xcassets; sourceTree = "<group>"; };
+		9AB12456E9218D1CBEE1EB4ECA465B01 /* APESuperHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = APESuperHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AB5DF8114398896264027B0A1570180 /* APESuperHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APESuperHUD.xcconfig; sourceTree = "<group>"; };
+		9D82C0E02EE560FBE3D83EF0355F5AC9 /* ActionSheetMultiSelectItemAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetMultiSelectItemAppearance.swift; path = Sheeeeeeeeet/Appearance/Items/ActionSheetMultiSelectItemAppearance.swift; sourceTree = "<group>"; };
+		9F330ECB2050FE2E1B8B7AAE1D030D4C /* ActionSheetPopoverPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetPopoverPresenter.swift; path = Sheeeeeeeeet/Presenters/ActionSheetPopoverPresenter.swift; sourceTree = "<group>"; };
+		A043FBAEAF4C36CAA68730A9C56DB160 /* ActionSheetMultiSelectToggleItemAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetMultiSelectToggleItemAppearance.swift; path = Sheeeeeeeeet/Appearance/Items/ActionSheetMultiSelectToggleItemAppearance.swift; sourceTree = "<group>"; };
+		A35B882F64914A83FF9F08110720794C /* UIApplication+Fullscreen.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIApplication+Fullscreen.swift"; path = "Sheeeeeeeeet/Extensions/UIApplication+Fullscreen.swift"; sourceTree = "<group>"; };
+		A8E3CCEDAC1EB7584E81B60033D9D7AD /* TCMask.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TCMask.framework; sourceTree = "<group>"; };
+		AC7D9CFB50AF451A9ADFA6B8511CBEF2 /* TLPhotoPickerController.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TLPhotoPickerController.bundle; path = TLPhotoPicker/TLPhotoPickerController.bundle; sourceTree = "<group>"; };
+		ADCECC3632A0984A3F0D05A607A68132 /* Sheeeeeeeeet-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Sheeeeeeeeet-prefix.pch"; sourceTree = "<group>"; };
+		AE9C13D457860BECEF6DB2707D70E6F1 /* ActionSheetCollectionItemCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetCollectionItemCell.swift; path = Sheeeeeeeeet/Views/ActionSheetCollectionItemCell.swift; sourceTree = "<group>"; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B4837154903D3A9797505229DA5B77A4 /* TLPhotoPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TLPhotoPicker-dummy.m"; sourceTree = "<group>"; };
+		B4B59834935DAF991DAAE0F8A929CE72 /* ActionSheetCustomItemAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetCustomItemAppearance.swift; path = Sheeeeeeeeet/Appearance/Items/ActionSheetCustomItemAppearance.swift; sourceTree = "<group>"; };
+		B5438A739434D07A4E984873EDF6B709 /* ActionSheetSectionMargin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetSectionMargin.swift; path = Sheeeeeeeeet/Items/Titles/ActionSheetSectionMargin.swift; sourceTree = "<group>"; };
+		BA2DCC80348E2266D0C97552310E2499 /* ActionSheetOkButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetOkButton.swift; path = Sheeeeeeeeet/Items/Buttons/ActionSheetOkButton.swift; sourceTree = "<group>"; };
+		BA776BD2F53FF63895D0B3E4671058B8 /* Sheeeeeeeeet-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Sheeeeeeeeet-umbrella.h"; sourceTree = "<group>"; };
+		BB554F0F506598DA044B2F6D5F804126 /* ActionSheetTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetTableView.swift; path = Sheeeeeeeeet/ActionSheet/ActionSheetTableView.swift; sourceTree = "<group>"; };
+		BE0018E2EEEA7E84B0C1777F675E1481 /* TCMask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCMask.h; path = TCMask.framework/Headers/TCMask.h; sourceTree = "<group>"; };
+		C0B873B8C3B5FB6EEA4AC897D8F862AD /* TLPhotoPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TLPhotoPicker.xcconfig; sourceTree = "<group>"; };
+		C1C03B5764673190F8419641E26A3DE8 /* HudAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HudAppearance.swift; path = Source/HudAppearance.swift; sourceTree = "<group>"; };
+		C1D6C64342E9EA8306F101D02C54734A /* ResourceBundle-TLPhotoPicker-TLPhotoPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TLPhotoPicker-TLPhotoPicker-Info.plist"; sourceTree = "<group>"; };
+		C220447BF183B341436D2EC83D3E866C /* ActionSheetButtonAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetButtonAppearance.swift; path = Sheeeeeeeeet/Appearance/Buttons/ActionSheetButtonAppearance.swift; sourceTree = "<group>"; };
+		C771295B37C64DBED6AB9D48E4EA208E /* Sheeeeeeeeet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Sheeeeeeeeet-dummy.m"; sourceTree = "<group>"; };
+		C7B40E1EE259E610A7FA182689873483 /* TLPhotoPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLPhotoPicker-prefix.pch"; sourceTree = "<group>"; };
+		C9339A09162E75396215F7949BFD33EA /* ActionSheetSectionTitle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetSectionTitle.swift; path = Sheeeeeeeeet/Items/Titles/ActionSheetSectionTitle.swift; sourceTree = "<group>"; };
+		CE787622F5A71C62C8A2A83C39EB224A /* APESuperHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APESuperHUD.h; path = Source/APESuperHUD.h; sourceTree = "<group>"; };
+		D28CE90B88CCF7E9DF398B4530A1AB17 /* ActionSheetCancelButtonAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetCancelButtonAppearance.swift; path = Sheeeeeeeeet/Appearance/Buttons/ActionSheetCancelButtonAppearance.swift; sourceTree = "<group>"; };
+		D57244C253865DF658A1F89FE9805C3F /* ActionSheetCustomItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetCustomItem.swift; path = Sheeeeeeeeet/Items/Items/ActionSheetCustomItem.swift; sourceTree = "<group>"; };
+		D621AD93A8D66A83D23AF45AD7FE93B1 /* ActionSheetItemHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetItemHandler.swift; path = Sheeeeeeeeet/ActionSheet/ActionSheetItemHandler.swift; sourceTree = "<group>"; };
+		D87EEA5BA4BA0638082A42FE0F72F894 /* TLPhotoPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TLPhotoPicker.modulemap; sourceTree = "<group>"; };
+		DB13475DDF3D193161E1758E1D0A9A9A /* ActionSheetTitle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetTitle.swift; path = Sheeeeeeeeet/Items/Titles/ActionSheetTitle.swift; sourceTree = "<group>"; };
+		DBB8EC2701190F12B8160BC5726A3E9D /* ActionSheetMargin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetMargin.swift; path = Sheeeeeeeeet/ActionSheet/ActionSheetMargin.swift; sourceTree = "<group>"; };
+		E2811C014CC830CE3A47CDAB73490319 /* ActionSheetItemAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetItemAppearance.swift; path = Sheeeeeeeeet/Appearance/ActionSheetItemAppearance.swift; sourceTree = "<group>"; };
+		E2E675A86697EF6AA1DC1A7EF5B9AD18 /* NSObject+ClassName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+ClassName.swift"; path = "Sheeeeeeeeet/Extensions/NSObject+ClassName.swift"; sourceTree = "<group>"; };
+		E392C5B924653FDDDBBCC856EFEB70C1 /* ActionSheetLinkItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetLinkItem.swift; path = Sheeeeeeeeet/Items/Items/ActionSheetLinkItem.swift; sourceTree = "<group>"; };
+		E62860C17A8265CD72D2D3E543A009D5 /* APESuperHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "APESuperHUD-dummy.m"; sourceTree = "<group>"; };
+		E682A687C779EE4ECF1ABE1C2A6D5B75 /* APESuperHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = APESuperHUD.swift; path = Source/APESuperHUD.swift; sourceTree = "<group>"; };
+		E92DB7319AABF2D9116B0CE466760AC0 /* Sheeeeeeeeet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Sheeeeeeeeet.xcconfig; sourceTree = "<group>"; };
+		EB5139D94BA5E11EE775DF9AD0ED9CFF /* TLPhotoPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLPhotoPicker-umbrella.h"; sourceTree = "<group>"; };
+		ED49AFE9831B017315614564E9EA0663 /* TLPhotoPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TLPhotoPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE1C2F2342CE5DE670A00FAE27F147C8 /* Sheeeeeeeeet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sheeeeeeeeet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4D5B8B45229BFAB87EB481B52563EC2 /* Sheeeeeeeeet-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Sheeeeeeeeet-Info.plist"; sourceTree = "<group>"; };
+		F5BC5ED0F61C99C8045DB92FF3FB6A72 /* ActionSheetAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActionSheetAppearance.swift; path = Sheeeeeeeeet/Appearance/ActionSheetAppearance.swift; sourceTree = "<group>"; };
+		F982721D0EBE9553C940BD9547468831 /* TCCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TCCore.h; path = TCCore.framework/Headers/TCCore.h; sourceTree = "<group>"; };
+		F9F4EEBF236EDE0124AB73C1E1293C63 /* TLPhotoPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TLPhotoPicker-Info.plist"; sourceTree = "<group>"; };
+		FA151BBED72420092C9B60779A9C180C /* Sheeeeeeeeet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Sheeeeeeeeet.modulemap; sourceTree = "<group>"; };
+		FBA12BB5F75AD479DC7F4D7FD005AB08 /* TCCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TCCore.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		45731E0C61E4A80056646293BB7F46A3 /* Frameworks */ = {
+		0388F60E2E1A5667BD3BAC90FF962DCF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BA74C54DCA9A036087C0660B600882D /* Foundation.framework in Frameworks */,
+				D49499B63E34E772AC90D720E49C84A1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4CB2E8CAF64EE2080E0EB604A462D342 /* Frameworks */ = {
+		0644AFC4F8497E7DDE17C8EC86BE8172 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		72AB17EFF80DB95583CD709FDED35196 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				181D47183D44B9AB2B15064E6AAD9D98 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		906999C88A5EB70FFA3052B95D60BAF2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EE581DDE08CB79431CB567D3C085E2C6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,83 +301,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AB33BF3DA8F0C4C8AF818F61C732D683 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FDA65C2DF3936D65936BA4F0F911CB6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF355B9CEA88908205354991E2202A29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6BF8551987ED0F93C89B43EAFF2F86 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00782BF1603CCD69DDF170C9FCD412E3 /* Sheeeeeeeeet */ = {
-			isa = PBXGroup;
-			children = (
-				E529CEC30086BFE626B2D1DCF5C1F49B /* ActionSheet.swift */,
-				DCED052CCED68F59E73E3D9ADCBEEA04 /* ActionSheet+Presenter.swift */,
-				3800068A840E6F822182F059D0456163 /* ActionSheetAppearance.swift */,
-				F9D603041B330209ECC2709B9DF03451 /* ActionSheetButton.swift */,
-				C38F842BA403AEEBAA41372EF31E2AE8 /* ActionSheetButtonAppearance.swift */,
-				CD6721BF1202B8ECF76B5263002D9582 /* ActionSheetCancelButton.swift */,
-				115D2F0B36FF972403D798EDDC90197A /* ActionSheetCancelButtonAppearance.swift */,
-				69A0299F551C8459C1F17EDB107A3DAD /* ActionSheetCollectionItem.swift */,
-				57D4C3ED8A89D9DDA22A088DF7D18300 /* ActionSheetCollectionItemAppearance.swift */,
-				B45432675E7872EA6722746BE248821C /* ActionSheetCollectionItemCell.swift */,
-				CCD3A6F2470EE662C6AA9AA53CE058E1 /* ActionSheetCollectionItemContentCell.swift */,
-				2B02A081AD542E5A5115C36AC9D93B32 /* ActionSheetCustomItem.swift */,
-				D9DCF753045AE4BB58108FC0AFE12B13 /* ActionSheetCustomItemAppearance.swift */,
-				CF7F4AF8C69EFAFEEB04837F3525AE68 /* ActionSheetCustomItemCell.swift */,
-				B74A0FD3083A7E50F9BA494B625A6EF6 /* ActionSheetDangerButton.swift */,
-				38CE8B1DCBE7DA60F27704706E3011B6 /* ActionSheetDangerButtonAppearance.swift */,
-				4204683F922686CE295492EDDCF6BE77 /* ActionSheetItem.swift */,
-				45BE0CE6671A1102873630CE966B91C0 /* ActionSheetItemAppearance.swift */,
-				079130E45810CCEB7113E9AAB1E63C26 /* ActionSheetItemCell.swift */,
-				9848FD364DBE9E29F08353EEC6570D82 /* ActionSheetItemHandler.swift */,
-				284FC030652C98E985FF9523233A1CAC /* ActionSheetLinkItem.swift */,
-				8E7654544E09CE886D45A2FBDCE8577D /* ActionSheetLinkItemAppearance.swift */,
-				CC7D08AD341050AD5F3776DFCE431C1D /* ActionSheetMargin.swift */,
-				DEB7D396DFBAB086D3F5E36A546FC5D4 /* ActionSheetMultiSelectItem.swift */,
-				7BD25FB85C7C110C6F0EB76E2A12D9D9 /* ActionSheetMultiSelectItemAppearance.swift */,
-				ABCFF940721ED563FDA372A7E9CDE6FE /* ActionSheetMultiSelectToggleItem.swift */,
-				74416F8AFFD98A30EAA3B8429A6F900D /* ActionSheetMultiSelectToggleItemAppearance.swift */,
-				7475BC0C87E0FE73258E213147D3CDD6 /* ActionSheetOkButton.swift */,
-				2FC7DC52ACB97955187F103D1FE6EECF /* ActionSheetOkButtonAppearance.swift */,
-				E65F295205754691E2423841B0860438 /* ActionSheetPopoverAppearance.swift */,
-				7945F7D395AA633A8CB131C03D803EB2 /* ActionSheetPopoverPresenter.swift */,
-				D219D7297A409CB7E66F602C47C00F17 /* ActionSheetPresenter.swift */,
-				690AE62731FE906DFA7D9C77ECC371E8 /* ActionSheetSectionMargin.swift */,
-				CE10C2F251A8AAEB205A8EA67EF60061 /* ActionSheetSectionMarginAppearance.swift */,
-				FE9C2A5E87FAAB9C5B129C3D11EBBB20 /* ActionSheetSectionTitle.swift */,
-				831804E34A9C2982745FFD96ACFDFF5F /* ActionSheetSectionTitleAppearance.swift */,
-				E8D863A2171F9E676D07374B67AE3670 /* ActionSheetSelectItem.swift */,
-				72AAC240BDECA7D116F43C20E380F61C /* ActionSheetSelectItemAppearance.swift */,
-				30D4BD5596049657C19B7640438EAEC0 /* ActionSheetSingleSelectItem.swift */,
-				586B71EA933D10D34F14772B32379BBC /* ActionSheetSingleSelectItemAppearance.swift */,
-				BCE525A859FE7E7BC3F18FFEB1D12CFD /* ActionSheetStandardPresenter.swift */,
-				C35B92DCDEBD6A81FB2B44F500CDAAC2 /* ActionSheetTableView.swift */,
-				9A21C288B9FA34688AC7FB2C1E5F1743 /* ActionSheetTitle.swift */,
-				1F95BE87FCA6263B1D12D398F2CDB8C1 /* ActionSheetTitleAppearance.swift */,
-				25A5B219B80E93831D2B94CCB692B717 /* NSObject+ClassName.swift */,
-				29D31AC6AF75123A0751C73A05BD9547 /* UIApplication+Fullscreen.swift */,
-				84A7F644EB591A359D5C31BF212A69A9 /* UIView+Nib.swift */,
-				FD64532F7E5E870E1420A130DC8D801F /* UIView+Subviews.swift */,
-				08D18401EA73DC59CAD7C2899E59CD37 /* UIViewController+RootViewController.swift */,
-				D21F351B9CCBA18565490D09F4F170B8 /* Resources */,
-				FB335C013FEEC3DF1DC446A2F41DE56E /* Support Files */,
-			);
-			name = Sheeeeeeeeet;
-			path = Sheeeeeeeeet;
-			sourceTree = "<group>";
-		};
-		02351E7F693FF6512D3F297CA8BC3E6C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				12003681EFFFC948DB95E0C0CCCE6276 /* Info.plist */,
-				1DD76239B1D46DE7CFF1748C1BBA224D /* ResourceBundle-TLPhotoPicker-Info.plist */,
-				FBC72BDD3F1F7F8B2CFDCB0EF5BA6B8B /* TLPhotoPicker.modulemap */,
-				80D860D50C20824914E8691C5FC196A4 /* TLPhotoPicker.xcconfig */,
-				129A1D5ED9BB0750673EBB56D8DE8A16 /* TLPhotoPicker-dummy.m */,
-				47DCFAFD3BF44294A29E54B3E349DF53 /* TLPhotoPicker-prefix.pch */,
-				DE5E29FE61C80B185B4297D2229E35CC /* TLPhotoPicker-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/TLPhotoPicker";
-			sourceTree = "<group>";
-		};
 		06CDD10DE71306278CF89108B3036DFD /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -365,49 +329,45 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		1BBE3C38576712451FC632A4BD27E053 /* Pods-Stickify */ = {
+		192FD089ECE6AF8B8098E955AAE545C0 /* TLPhotoPicker */ = {
 			isa = PBXGroup;
 			children = (
-				7C087F36A85F8245E5C4D09A486D61FB /* Info.plist */,
-				044C3E1CE8597EBCD5FA0D1C7EC352CF /* Pods-Stickify.modulemap */,
-				8550798EC51B0A712B9BD6FD14F948FE /* Pods-Stickify-acknowledgements.markdown */,
-				33495C7961BA6C1C87C49E357AF8F16E /* Pods-Stickify-acknowledgements.plist */,
-				FCE6D79592EB7AB1573A9683D4AD87D2 /* Pods-Stickify-dummy.m */,
-				561180699F3749BB375CE0847FBE010B /* Pods-Stickify-frameworks.sh */,
-				B794E917BED88E58E8B7FDC1913FCE86 /* Pods-Stickify-resources.sh */,
-				2DAC2EC1FC44972D362B3410977876B6 /* Pods-Stickify-umbrella.h */,
-				2EB5B67605BEE73953F45F7A9B99485C /* Pods-Stickify.debug.xcconfig */,
-				685DD069E87F012ED5E1CF72F9184FB2 /* Pods-Stickify.release.xcconfig */,
+				0A50F592BD258ABDA7D534AB27B3C8DA /* TLAlbumPopView.swift */,
+				9489C4E9758649B6AABDF8CCB970845E /* TLAssetsCollection.swift */,
+				9037251EAE7653A5E5E217CB330E7702 /* TLBundle.swift */,
+				2008E3FA23525EDB481DAD2BB34E7EE8 /* TLCollectionTableViewCell.swift */,
+				1A1E28876CAC0E0F56E268E653B39D72 /* TLCollectionTableViewCell.xib */,
+				3CEFCEF0F8132D4CBF605B988F98E92D /* TLPhotoCollectionViewCell.swift */,
+				7EA7AE8D0FC55766730CC4592F1A3B39 /* TLPhotoCollectionViewCell.xib */,
+				027064737144F7D18E83C3B29259C9BC /* TLPhotoLibrary.swift */,
+				09217C5FD136E2965350D26160773716 /* TLPhotosPickerViewController.swift */,
+				4065BAC487964C696ACDBB25B898276E /* TLPhotosPickerViewController.xib */,
+				D65A67EF56008A574E17464A84B5AFE5 /* Resources */,
+				4C0825DC423CAFDC7EB4D965945E8422 /* Support Files */,
 			);
-			name = "Pods-Stickify";
-			path = "Target Support Files/Pods-Stickify";
+			path = TLPhotoPicker;
 			sourceTree = "<group>";
 		};
-		2C909EBC81EE493D27C2D20E36AD163B /* Pods */ = {
+		20D65CC5F56D0ACFC559456F1B34FB60 /* APESuperHUD */ = {
 			isa = PBXGroup;
 			children = (
-				433911B691AC95648BA91C0E91FAC412 /* APESuperHUD */,
-				00782BF1603CCD69DDF170C9FCD412E3 /* Sheeeeeeeeet */,
-				EED8059EDB9239CB5948B36D202ACD3E /* SwiftLint */,
-				EAB1B614ACF5D4EF2180CEEDF2A0C02B /* TinyCrayon */,
-				DAAC18AE1987D4990360B2952E27CCBA /* TLPhotoPicker */,
+				CE787622F5A71C62C8A2A83C39EB224A /* APESuperHUD.h */,
+				E682A687C779EE4ECF1ABE1C2A6D5B75 /* APESuperHUD.swift */,
+				C1C03B5764673190F8419641E26A3DE8 /* HudAppearance.swift */,
+				8A3E92D864D5E8F1E1F4CFD526081ADB /* HudView.swift */,
+				4B3911ABF96C5248294702F737F24934 /* LoadingMessagesHandler.swift */,
+				FA4B32699794E7A2C94E474F984A968B /* Resources */,
+				FF314344941E5DA6CDE82DC97EB8B965 /* Support Files */,
 			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		433911B691AC95648BA91C0E91FAC412 /* APESuperHUD */ = {
-			isa = PBXGroup;
-			children = (
-				84B7BA85593FC973CF39BAD81601C907 /* APESuperHUD.h */,
-				9F67560D01031C67451DF6FAC36A4F78 /* APESuperHUD.swift */,
-				41C0CD00485B1919BBFB306A9CBAB70E /* HudAppearance.swift */,
-				A7970CFAAE31B0747C4FE9C8E4B39AC9 /* HudView.swift */,
-				DADF4B64D64EBBBC5E5D10B252000CAD /* LoadingMessagesHandler.swift */,
-				834164ED2399247FED084A67ECA8F38C /* Resources */,
-				BFD0676C2946F23DE96FB641F5735596 /* Support Files */,
-			);
-			name = APESuperHUD;
 			path = APESuperHUD;
+			sourceTree = "<group>";
+		};
+		335AD808B5698D9947081796C3AC0E78 /* SwiftLint */ = {
+			isa = PBXGroup;
+			children = (
+				D4C9AD9456BBD870EA7E016F942DFCE6 /* Support Files */,
+			);
+			path = SwiftLint;
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -418,39 +378,84 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4858D2ECACD728BC63BEDC30569B7A3F /* TCMask */ = {
+			isa = PBXGroup;
+			children = (
+				BE0018E2EEEA7E84B0C1777F675E1481 /* TCMask.h */,
+				81A8009B4DFE41A086159EBFAF5CF52E /* TCMask-Swift.h */,
+				DB8905E97D3B55718E0FF090131A7EE2 /* Frameworks */,
+			);
+			name = TCMask;
+			sourceTree = "<group>";
+		};
+		4C0825DC423CAFDC7EB4D965945E8422 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1D6C64342E9EA8306F101D02C54734A /* ResourceBundle-TLPhotoPicker-TLPhotoPicker-Info.plist */,
+				D87EEA5BA4BA0638082A42FE0F72F894 /* TLPhotoPicker.modulemap */,
+				C0B873B8C3B5FB6EEA4AC897D8F862AD /* TLPhotoPicker.xcconfig */,
+				B4837154903D3A9797505229DA5B77A4 /* TLPhotoPicker-dummy.m */,
+				F9F4EEBF236EDE0124AB73C1E1293C63 /* TLPhotoPicker-Info.plist */,
+				C7B40E1EE259E610A7FA182689873483 /* TLPhotoPicker-prefix.pch */,
+				EB5139D94BA5E11EE775DF9AD0ED9CFF /* TLPhotoPicker-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TLPhotoPicker";
+			sourceTree = "<group>";
+		};
+		5596453EB1F39B77935AF8B9FD33AEDF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				694BF1B18BC993DEC1B826E3F3241238 /* TinyCrayon.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TinyCrayon";
+			sourceTree = "<group>";
+		};
+		6C39D805DE7AFFE02F0AC7A063946E68 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA151BBED72420092C9B60779A9C180C /* Sheeeeeeeeet.modulemap */,
+				E92DB7319AABF2D9116B0CE466760AC0 /* Sheeeeeeeeet.xcconfig */,
+				C771295B37C64DBED6AB9D48E4EA208E /* Sheeeeeeeeet-dummy.m */,
+				F4D5B8B45229BFAB87EB481B52563EC2 /* Sheeeeeeeeet-Info.plist */,
+				ADCECC3632A0984A3F0D05A607A68132 /* Sheeeeeeeeet-prefix.pch */,
+				BA776BD2F53FF63895D0B3E4671058B8 /* Sheeeeeeeeet-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Sheeeeeeeeet";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				2C909EBC81EE493D27C2D20E36AD163B /* Pods */,
+				90D1F67B42BE27CB77E9621588551C8B /* Pods */,
 				92C4FFD4696F79BA33B55B27DE2B7F62 /* Products */,
-				C0369D263EAE253EEF46AC8F02D45205 /* Targets Support Files */,
+				C7DA63B4F2EFB21BD546A619FFC184C2 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		834164ED2399247FED084A67ECA8F38C /* Resources */ = {
+		8CDC3438D81D104290823E646A549FE2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				2CC14037D84E369B971598F5F47DD0FE /* FrameworkMedia.xcassets */,
+				889C419DDE2E5665ED6C11732DF16C46 /* ActionSheet.xib */,
+				3D68BE34441427F563FAA37836C76C3F /* ActionSheetCollectionItemCell.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		841662FF2A30D6C9FB71D2293AC3A5A2 /* Frameworks */ = {
+		90D1F67B42BE27CB77E9621588551C8B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				592B097E87BF6409CD2A430201D65CC1 /* TCCore.framework */,
+				20D65CC5F56D0ACFC559456F1B34FB60 /* APESuperHUD */,
+				ECC762B1E5B883C429605223F21536E2 /* Sheeeeeeeeet */,
+				335AD808B5698D9947081796C3AC0E78 /* SwiftLint */,
+				DDA044B73FDB18781A33A20C175F12F6 /* TinyCrayon */,
+				192FD089ECE6AF8B8098E955AAE545C0 /* TLPhotoPicker */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		85B96E235CF3A157256442BCFA2B659B /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				6E53F860A1ABE530CCACC7465EEC8E51 /* TLPhotoPickerController.bundle */,
-			);
-			name = Resources;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		92C4FFD4696F79BA33B55B27DE2B7F62 /* Products */ = {
@@ -465,127 +470,166 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AD80A2E55D597F411B86968B58F895E5 /* TCCore */ = {
+		9C6D779362AF43EE698B8949CF68F674 /* TCCore */ = {
 			isa = PBXGroup;
 			children = (
-				FF7F94A8DC8AD80129A19DD5E9088E60 /* TCCore.h */,
-				841662FF2A30D6C9FB71D2293AC3A5A2 /* Frameworks */,
+				F982721D0EBE9553C940BD9547468831 /* TCCore.h */,
+				DEE8CDB2D13263AA595203C2732E50F6 /* Frameworks */,
 			);
 			name = TCCore;
 			sourceTree = "<group>";
 		};
-		BFD0676C2946F23DE96FB641F5735596 /* Support Files */ = {
+		9E65F5611D45B97A3FD0584A579E6B7D /* Pods-Stickify */ = {
 			isa = PBXGroup;
 			children = (
-				CAE5901629783572C59C8672E44716CF /* APESuperHUD.modulemap */,
-				3FA8C3D0969CF5864F3F5331D822F0F0 /* APESuperHUD.xcconfig */,
-				E482027C0B5B5D63CCB36FCDE0BDCF22 /* APESuperHUD-dummy.m */,
-				84DC43C719564519B697EC8A67D181B4 /* APESuperHUD-prefix.pch */,
-				6EC99037BD43EED13BD27B41A50629D6 /* APESuperHUD-umbrella.h */,
-				F48DD28B45B2F8C153701E3F55D2772B /* Info.plist */,
+				182BDA2316DED6DFB402E183B542AE63 /* Pods-Stickify.modulemap */,
+				3BCBFAC032E06AFC2E31692A9CB5F51B /* Pods-Stickify-acknowledgements.markdown */,
+				439E4A613B694C19187642A3E5250BE0 /* Pods-Stickify-acknowledgements.plist */,
+				3F4403097BAFF02E97582B33729A32BC /* Pods-Stickify-dummy.m */,
+				68D9D8DC39F885B38BBA392940782D73 /* Pods-Stickify-frameworks.sh */,
+				12BCF2B97FFAA5E9D939DC5F02D49775 /* Pods-Stickify-Info.plist */,
+				0423B1B1E74F50EDC7CEFC422B4D692A /* Pods-Stickify-umbrella.h */,
+				903A1F00C36721220259BC02BFDC09F8 /* Pods-Stickify.debug.xcconfig */,
+				130552C65C5A6B7CF04BE847CC68616E /* Pods-Stickify.release.xcconfig */,
+			);
+			name = "Pods-Stickify";
+			path = "Target Support Files/Pods-Stickify";
+			sourceTree = "<group>";
+		};
+		C7DA63B4F2EFB21BD546A619FFC184C2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E65F5611D45B97A3FD0584A579E6B7D /* Pods-Stickify */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D4C9AD9456BBD870EA7E016F942DFCE6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				64E4F663D40FA750E007B80ABE0F6BC1 /* SwiftLint.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftLint";
+			sourceTree = "<group>";
+		};
+		D65A67EF56008A574E17464A84B5AFE5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AC7D9CFB50AF451A9ADFA6B8511CBEF2 /* TLPhotoPickerController.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DB8905E97D3B55718E0FF090131A7EE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8E3CCEDAC1EB7584E81B60033D9D7AD /* TCMask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDA044B73FDB18781A33A20C175F12F6 /* TinyCrayon */ = {
+			isa = PBXGroup;
+			children = (
+				5596453EB1F39B77935AF8B9FD33AEDF /* Support Files */,
+				9C6D779362AF43EE698B8949CF68F674 /* TCCore */,
+				4858D2ECACD728BC63BEDC30569B7A3F /* TCMask */,
+			);
+			path = TinyCrayon;
+			sourceTree = "<group>";
+		};
+		DEE8CDB2D13263AA595203C2732E50F6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBA12BB5F75AD479DC7F4D7FD005AB08 /* TCCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECC762B1E5B883C429605223F21536E2 /* Sheeeeeeeeet */ = {
+			isa = PBXGroup;
+			children = (
+				8F97F2C84B9553EAF17C1EEE751F49FE /* ActionSheet.swift */,
+				002509573D75AC560EA12ECA0FACB947 /* ActionSheet+Presenter.swift */,
+				F5BC5ED0F61C99C8045DB92FF3FB6A72 /* ActionSheetAppearance.swift */,
+				2CD0C1115B092A8868DC0E1C0FCBBC2B /* ActionSheetButton.swift */,
+				C220447BF183B341436D2EC83D3E866C /* ActionSheetButtonAppearance.swift */,
+				0D8E6924F5973B261FA00214EC42F889 /* ActionSheetCancelButton.swift */,
+				D28CE90B88CCF7E9DF398B4530A1AB17 /* ActionSheetCancelButtonAppearance.swift */,
+				45777A6C1B8D925EB63803A6CF0D8865 /* ActionSheetCollectionItem.swift */,
+				4A4D408671042BFB2C249801792D1D75 /* ActionSheetCollectionItemAppearance.swift */,
+				AE9C13D457860BECEF6DB2707D70E6F1 /* ActionSheetCollectionItemCell.swift */,
+				92F43D5EA77E09DF5F6ECFC9B6D05FFB /* ActionSheetCollectionItemContentCell.swift */,
+				D57244C253865DF658A1F89FE9805C3F /* ActionSheetCustomItem.swift */,
+				B4B59834935DAF991DAAE0F8A929CE72 /* ActionSheetCustomItemAppearance.swift */,
+				05DC451EA32E77A4517352145096F15D /* ActionSheetCustomItemCell.swift */,
+				860F65492A46702DE1D47D9D937D771A /* ActionSheetDangerButton.swift */,
+				24A9AEB39EB0F3397D973B546F2DA5E4 /* ActionSheetDangerButtonAppearance.swift */,
+				8393E62F7F460493CD78758984B703B1 /* ActionSheetItem.swift */,
+				E2811C014CC830CE3A47CDAB73490319 /* ActionSheetItemAppearance.swift */,
+				35BA93547883454D603885F260DA0E37 /* ActionSheetItemCell.swift */,
+				D621AD93A8D66A83D23AF45AD7FE93B1 /* ActionSheetItemHandler.swift */,
+				E392C5B924653FDDDBBCC856EFEB70C1 /* ActionSheetLinkItem.swift */,
+				934BCCCC939FBB2EDA4E1437F924BA77 /* ActionSheetLinkItemAppearance.swift */,
+				DBB8EC2701190F12B8160BC5726A3E9D /* ActionSheetMargin.swift */,
+				6BE56B5CFEC1B9BDFEB3916DB29800A3 /* ActionSheetMultiSelectItem.swift */,
+				9D82C0E02EE560FBE3D83EF0355F5AC9 /* ActionSheetMultiSelectItemAppearance.swift */,
+				08E6F2721631AFE18DAD0C20B6928B28 /* ActionSheetMultiSelectToggleItem.swift */,
+				A043FBAEAF4C36CAA68730A9C56DB160 /* ActionSheetMultiSelectToggleItemAppearance.swift */,
+				BA2DCC80348E2266D0C97552310E2499 /* ActionSheetOkButton.swift */,
+				3AC36DFF91F4B4729DCF13B9D667E88C /* ActionSheetOkButtonAppearance.swift */,
+				14B42D0295E83F1481DDCBFAE1D2F1F6 /* ActionSheetPopoverAppearance.swift */,
+				9F330ECB2050FE2E1B8B7AAE1D030D4C /* ActionSheetPopoverPresenter.swift */,
+				62904D466E9EC3934703FCCF902D88EE /* ActionSheetPresenter.swift */,
+				B5438A739434D07A4E984873EDF6B709 /* ActionSheetSectionMargin.swift */,
+				113A6C6A869D20F813216D9B5D0E739E /* ActionSheetSectionMarginAppearance.swift */,
+				C9339A09162E75396215F7949BFD33EA /* ActionSheetSectionTitle.swift */,
+				91FF913B73175BBFC29F44B02D1CC854 /* ActionSheetSectionTitleAppearance.swift */,
+				3E07532104A7DE2269B9CB89D48E8FA2 /* ActionSheetSelectItem.swift */,
+				85323C90E3A2BFAF9F02EF89AD21CF46 /* ActionSheetSelectItemAppearance.swift */,
+				544779CF1A05A48231E42C24228F689D /* ActionSheetSingleSelectItem.swift */,
+				163207AD41BE2B917603135C62D4B12B /* ActionSheetSingleSelectItemAppearance.swift */,
+				4B253069D8EB2E296DDF2AE807082EE4 /* ActionSheetStandardPresenter.swift */,
+				BB554F0F506598DA044B2F6D5F804126 /* ActionSheetTableView.swift */,
+				DB13475DDF3D193161E1758E1D0A9A9A /* ActionSheetTitle.swift */,
+				40F53A826BFC881E828A47EFB7AA6B35 /* ActionSheetTitleAppearance.swift */,
+				E2E675A86697EF6AA1DC1A7EF5B9AD18 /* NSObject+ClassName.swift */,
+				A35B882F64914A83FF9F08110720794C /* UIApplication+Fullscreen.swift */,
+				0CB4D2549CF69D9F7E0F84B6B5CE524D /* UIView+Nib.swift */,
+				4102E530274D292DA827AA7C4811704B /* UIView+Subviews.swift */,
+				32C02F0C95657C1E755CC8F87CF4EF3C /* UIViewController+RootViewController.swift */,
+				8CDC3438D81D104290823E646A549FE2 /* Resources */,
+				6C39D805DE7AFFE02F0AC7A063946E68 /* Support Files */,
+			);
+			path = Sheeeeeeeeet;
+			sourceTree = "<group>";
+		};
+		FA4B32699794E7A2C94E474F984A968B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				952AB92FB3F1E2AF228D9B2D1D545A0F /* FrameworkMedia.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FF314344941E5DA6CDE82DC97EB8B965 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D17313D7213B1E335200930553AB6AC /* APESuperHUD.modulemap */,
+				9AB5DF8114398896264027B0A1570180 /* APESuperHUD.xcconfig */,
+				E62860C17A8265CD72D2D3E543A009D5 /* APESuperHUD-dummy.m */,
+				213C504E49D864B3DD9265755E336211 /* APESuperHUD-Info.plist */,
+				1C9A72FA2F3FA2E2967BDD18EB2AC430 /* APESuperHUD-prefix.pch */,
+				907AF6EEAD2250277F0C16D8B9B24EEA /* APESuperHUD-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/APESuperHUD";
 			sourceTree = "<group>";
 		};
-		C0369D263EAE253EEF46AC8F02D45205 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1BBE3C38576712451FC632A4BD27E053 /* Pods-Stickify */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		C5D6DD14EF4FFF7C878AA51E15DFFC5F /* TCMask */ = {
-			isa = PBXGroup;
-			children = (
-				BC4CDB6702ADAEC8320FAD7E5C2AE582 /* TCMask.h */,
-				32FD8ABEDFD75E9E495D58F36987174A /* TCMask-Swift.h */,
-				E4306EDD79FE9341B3AD54BFD4A10361 /* Frameworks */,
-			);
-			name = TCMask;
-			sourceTree = "<group>";
-		};
-		D21F351B9CCBA18565490D09F4F170B8 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				354900198730AD26D2FD9D65000483A5 /* ActionSheet.xib */,
-				2DFC803A44EBEE2119FB6439C4545F1F /* ActionSheetCollectionItemCell.xib */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		DAAC18AE1987D4990360B2952E27CCBA /* TLPhotoPicker */ = {
-			isa = PBXGroup;
-			children = (
-				BA5D01573E7B0D55A48F99CFEF19B923 /* TLAlbumPopView.swift */,
-				453E9E40FB5DF39826813FE4829D7319 /* TLAssetsCollection.swift */,
-				6726B8B682860013E854EFA44BC8B8B0 /* TLBundle.swift */,
-				677A57F9D33A1D5A5F9D6F7EAA2B0E8E /* TLCollectionTableViewCell.swift */,
-				4A28A0005E8A3B78B1F34EB3887326EA /* TLCollectionTableViewCell.xib */,
-				3627959BEABD380FB57D314E40681F74 /* TLPhotoCollectionViewCell.swift */,
-				614BB8473E006FCF6C17ECB0A28401C0 /* TLPhotoCollectionViewCell.xib */,
-				D9D07C14B1CE5A954E5AB8B2BEA0E3EB /* TLPhotoLibrary.swift */,
-				70D0AA8B93FE61010C32E7668A40EBF2 /* TLPhotosPickerViewController.swift */,
-				919BF3221E68AB37E94C8F43064E4CFA /* TLPhotosPickerViewController.xib */,
-				85B96E235CF3A157256442BCFA2B659B /* Resources */,
-				02351E7F693FF6512D3F297CA8BC3E6C /* Support Files */,
-			);
-			name = TLPhotoPicker;
-			path = TLPhotoPicker;
-			sourceTree = "<group>";
-		};
-		E4306EDD79FE9341B3AD54BFD4A10361 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				8360E2138C7881EE9A849AAB7166B027 /* TCMask.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		EAB1B614ACF5D4EF2180CEEDF2A0C02B /* TinyCrayon */ = {
-			isa = PBXGroup;
-			children = (
-				AD80A2E55D597F411B86968B58F895E5 /* TCCore */,
-				C5D6DD14EF4FFF7C878AA51E15DFFC5F /* TCMask */,
-			);
-			name = TinyCrayon;
-			path = TinyCrayon;
-			sourceTree = "<group>";
-		};
-		EED8059EDB9239CB5948B36D202ACD3E /* SwiftLint */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = SwiftLint;
-			path = SwiftLint;
-			sourceTree = "<group>";
-		};
-		FB335C013FEEC3DF1DC446A2F41DE56E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9AA2A4B10932ECA3EB4C6C14AAD49F26 /* Info.plist */,
-				B17BEDD2AA7069DCBA7D4C26F9DC7E5F /* Sheeeeeeeeet.modulemap */,
-				0A65B913D82DD946D0376D1981C8359A /* Sheeeeeeeeet.xcconfig */,
-				3668E8E5546F978E46C4E32CCE45795B /* Sheeeeeeeeet-dummy.m */,
-				CD5FD7561158151A614568272331695A /* Sheeeeeeeeet-prefix.pch */,
-				7C1D8ACE122EC4D423F6A7FE056DE871 /* Sheeeeeeeeet-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Sheeeeeeeeet";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		401F00D83DDC2FF18E7A3CB34A3E46EB /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				93548714FB1D9AAC48808378CF3A5094 /* Sheeeeeeeeet-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6026E5A2D3A58EBABE5DC25BFAAC73C4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -595,33 +639,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		671EAA44A471FF409BD9EEEC6068813D /* Headers */ = {
+		7B239D2FEC63E2F9C0ED317616E68A19 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7E0EBF0985E83FBE6FE9274F6D7AF42 /* Pods-Stickify-umbrella.h in Headers */,
+				AE74DD970376DE5225290034796C0B38 /* Pods-Stickify-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CBA90A66D2821ADFD23E288BDCBEEEB7 /* Headers */ = {
+		C606E7C4F40E967C455B4D86F8168456 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				633A5270718F11205B0B9661A4879E71 /* TLPhotoPicker-umbrella.h in Headers */,
+				C56DCA63F7E290F895521BF1DEFFE2D7 /* TLPhotoPicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6556354611FF6F97DD6A5DA0B1B4C7E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F680281F8CBD3F2683576C928C01EC1 /* Sheeeeeeeeet-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1B95F981E17B175B001646636FFD4E16 /* Sheeeeeeeeet */ = {
+		0FE88A44BF538A4A9E2F0F40BC66A20C /* Sheeeeeeeeet */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B5B71EED5D2617529F07FD001541590A /* Build configuration list for PBXNativeTarget "Sheeeeeeeeet" */;
+			buildConfigurationList = FE3BD09AF1B2C61AC0961B967F87B858 /* Build configuration list for PBXNativeTarget "Sheeeeeeeeet" */;
 			buildPhases = (
-				401F00D83DDC2FF18E7A3CB34A3E46EB /* Headers */,
-				6369F89E13AB302508E448A2D1F5F7BE /* Sources */,
-				45731E0C61E4A80056646293BB7F46A3 /* Frameworks */,
-				0EE5DF7AA56CF9F2327CD523EE163F19 /* Resources */,
+				F6556354611FF6F97DD6A5DA0B1B4C7E /* Headers */,
+				DA83CEE31B7522D6050B3267A35F6724 /* Sources */,
+				AB33BF3DA8F0C4C8AF818F61C732D683 /* Frameworks */,
+				2D6B664EF4DD52CE0646AFE23D8E11CE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -630,6 +682,29 @@
 			name = Sheeeeeeeeet;
 			productName = Sheeeeeeeeet;
 			productReference = EE1C2F2342CE5DE670A00FAE27F147C8 /* Sheeeeeeeeet.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6A732293501B50AA5876FA4A0AB9FBA2 /* Pods-Stickify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8095AC6E1D9C06BA973D677E8F306866 /* Build configuration list for PBXNativeTarget "Pods-Stickify" */;
+			buildPhases = (
+				7B239D2FEC63E2F9C0ED317616E68A19 /* Headers */,
+				E969597C94CB59BFD3EBBD9C47B1902D /* Sources */,
+				0388F60E2E1A5667BD3BAC90FF962DCF /* Frameworks */,
+				DFDCEC11FBAC40FEC706F03A3D9D4A04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B7A9F9425E601A4C5611657E246AF96 /* PBXTargetDependency */,
+				FD3FF4ED02AF173ECBBD21D9D1F4B265 /* PBXTargetDependency */,
+				991EA8BF976959958135C22D39651F9F /* PBXTargetDependency */,
+				4EF33133CBDA9CD7B19D70FB7C3D8508 /* PBXTargetDependency */,
+				89F7A9FA7C17C6F537FA3C2ECCBD41D9 /* PBXTargetDependency */,
+			);
+			name = "Pods-Stickify";
+			productName = "Pods-Stickify";
+			productReference = 1AD5C8E11079FDE370DCB15CC20553E8 /* Pods_Stickify.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		713C6EFC9DFA210DD59FE576ED4D36CB /* APESuperHUD */ = {
@@ -650,53 +725,13 @@
 			productReference = 9AB12456E9218D1CBEE1EB4ECA465B01 /* APESuperHUD.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		AF55AC468B4F04BE477CDEE851BBE78F /* Pods-Stickify */ = {
+		77A5B26F5D75FBCD6D90140B70A9A06D /* TLPhotoPicker-TLPhotoPicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C219ABA26E4649813D690D3BA32B0752 /* Build configuration list for PBXNativeTarget "Pods-Stickify" */;
+			buildConfigurationList = 2EBED093FAC33B7434C0CFF14907BEBC /* Build configuration list for PBXNativeTarget "TLPhotoPicker-TLPhotoPicker" */;
 			buildPhases = (
-				671EAA44A471FF409BD9EEEC6068813D /* Headers */,
-				1DBEB4DBD638B6FFDF5F5CD7B224D3EE /* Sources */,
-				906999C88A5EB70FFA3052B95D60BAF2 /* Frameworks */,
-				1B9C81B8E61C7F30CE6FC4DC7173901B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D0403BD50C909A73D77D5C8120129B22 /* PBXTargetDependency */,
-				188B9253EF95F8FCEC1AB91925315365 /* PBXTargetDependency */,
-				68BE5FFB53DC5C5367D85F2EDD393283 /* PBXTargetDependency */,
-			);
-			name = "Pods-Stickify";
-			productName = "Pods-Stickify";
-			productReference = 1AD5C8E11079FDE370DCB15CC20553E8 /* Pods_Stickify.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		EDC20D918EE65C9C34C9380E0C05805A /* TLPhotoPicker */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 680A814465FC6C5BB4D6BA06F293B582 /* Build configuration list for PBXNativeTarget "TLPhotoPicker" */;
-			buildPhases = (
-				CBA90A66D2821ADFD23E288BDCBEEEB7 /* Headers */,
-				459B0A53ABCDD6D391E7C0000633F93F /* Sources */,
-				72AB17EFF80DB95583CD709FDED35196 /* Frameworks */,
-				4910F49E2E1EBCAE393D64E704E0BBF1 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CC1D48359A0C64B73E10CA017AEC008E /* PBXTargetDependency */,
-			);
-			name = TLPhotoPicker;
-			productName = TLPhotoPicker;
-			productReference = ED49AFE9831B017315614564E9EA0663 /* TLPhotoPicker.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		FB9797983303FD0B8ADFF348538B7AD3 /* TLPhotoPicker-TLPhotoPicker */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B1AD96A5A0994A48B999814F54B43D3E /* Build configuration list for PBXNativeTarget "TLPhotoPicker-TLPhotoPicker" */;
-			buildPhases = (
-				6175DE40532800BB815B3C18190B1AC8 /* Sources */,
-				4CB2E8CAF64EE2080E0EB604A462D342 /* Frameworks */,
-				CC1E2049A371321764F22B266E3A154B /* Resources */,
+				BADE7ECA2599C270157DE57A5E777DDC /* Sources */,
+				0644AFC4F8497E7DDE17C8EC86BE8172 /* Frameworks */,
+				8CE8808DA26D77D4ED9A890D19036289 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -707,6 +742,25 @@
 			productReference = 46EE28C3CB688617AB392416DF6B7BFF /* TLPhotoPicker.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
+		F5D08464FB15DEB02805ED76D7EAA2FB /* TLPhotoPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8E83D34449E4574CE0B2AE58931C991 /* Build configuration list for PBXNativeTarget "TLPhotoPicker" */;
+			buildPhases = (
+				C606E7C4F40E967C455B4D86F8168456 /* Headers */,
+				74AB2A51EB5D5EBAE49C704DBFB3294F /* Sources */,
+				DF355B9CEA88908205354991E2202A29 /* Frameworks */,
+				A7BEAF74E95C3F87006CD23992E9C5E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				019143CC1634D38CDC35EBBA5FB8D968 /* PBXTargetDependency */,
+			);
+			name = TLPhotoPicker;
+			productName = TLPhotoPicker;
+			productReference = ED49AFE9831B017315614564E9EA0663 /* TLPhotoPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -714,7 +768,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1010;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -729,10 +783,12 @@
 			projectRoot = "";
 			targets = (
 				713C6EFC9DFA210DD59FE576ED4D36CB /* APESuperHUD */,
-				AF55AC468B4F04BE477CDEE851BBE78F /* Pods-Stickify */,
-				1B95F981E17B175B001646636FFD4E16 /* Sheeeeeeeeet */,
-				EDC20D918EE65C9C34C9380E0C05805A /* TLPhotoPicker */,
-				FB9797983303FD0B8ADFF348538B7AD3 /* TLPhotoPicker-TLPhotoPicker */,
+				6A732293501B50AA5876FA4A0AB9FBA2 /* Pods-Stickify */,
+				0FE88A44BF538A4A9E2F0F40BC66A20C /* Sheeeeeeeeet */,
+				DB0F54FE10F679266684FAAB6DA72162 /* SwiftLint */,
+				F60AE12EF32D99B0590B7AB2D021E26F /* TinyCrayon */,
+				F5D08464FB15DEB02805ED76D7EAA2FB /* TLPhotoPicker */,
+				77A5B26F5D75FBCD6D90140B70A9A06D /* TLPhotoPicker-TLPhotoPicker */,
 			);
 		};
 /* End PBXProject section */
@@ -746,70 +802,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0EE5DF7AA56CF9F2327CD523EE163F19 /* Resources */ = {
+		2D6B664EF4DD52CE0646AFE23D8E11CE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8516B4E324856D31FB551E1E07946158 /* ActionSheet.xib in Resources */,
-				230367B69D3FF0B3C7C7E550A927A89A /* ActionSheetCollectionItemCell.xib in Resources */,
+				FDAEC7307D20201342092697A45657ED /* ActionSheet.xib in Resources */,
+				65EDC277B57857610D36C2D3A2C25716 /* ActionSheetCollectionItemCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1B9C81B8E61C7F30CE6FC4DC7173901B /* Resources */ = {
+		8CE8808DA26D77D4ED9A890D19036289 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C641D731377C9A8A19D711111271FD4 /* TLCollectionTableViewCell.xib in Resources */,
+				D572A2B6E4BA9B470E3A3B95DBDA81AC /* TLPhotoCollectionViewCell.xib in Resources */,
+				69568FC3C910E77C2F5EECBAE7342576 /* TLPhotosPickerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4910F49E2E1EBCAE393D64E704E0BBF1 /* Resources */ = {
+		A7BEAF74E95C3F87006CD23992E9C5E2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D9056E8767756FC0053F7024CD86AC2 /* TLPhotoPicker.bundle in Resources */,
-				5C58359EBAE1D71B5A68DF780973400D /* TLPhotoPickerController.bundle in Resources */,
+				EB7CA46D788597E5FAAB231FD5DE981E /* TLPhotoPicker.bundle in Resources */,
+				C73CF9F33B685BCA49F2AB05BCB167B8 /* TLPhotoPickerController.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC1E2049A371321764F22B266E3A154B /* Resources */ = {
+		DFDCEC11FBAC40FEC706F03A3D9D4A04 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57028834B141028D581FAC9715A590F5 /* TLCollectionTableViewCell.xib in Resources */,
-				0414948FA72606C1347E68EBD1EC2ADA /* TLPhotoCollectionViewCell.xib in Resources */,
-				CC8A9B9611B5E40086A4AAAB18F87A5E /* TLPhotosPickerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1DBEB4DBD638B6FFDF5F5CD7B224D3EE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C1A69F0C40A7F5925A11A8BB4BEF4E28 /* Pods-Stickify-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		459B0A53ABCDD6D391E7C0000633F93F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6707F9F703E34EF1782F44966F1F029D /* TLAlbumPopView.swift in Sources */,
-				607E8E703E00BA4DF2C88F789AA882EC /* TLAssetsCollection.swift in Sources */,
-				3E516665C2C411ADFB697418C1359D83 /* TLBundle.swift in Sources */,
-				3AF5940A574F4A0CDFCDEE2B22E101A7 /* TLCollectionTableViewCell.swift in Sources */,
-				8B64E40AB892FE7209E7C15932C48238 /* TLCollectionTableViewCell.xib in Sources */,
-				373E627C37CBA0549E3BFFA8DAE815F0 /* TLPhotoCollectionViewCell.swift in Sources */,
-				3AE2E344F315DCC267A74305FC38C303 /* TLPhotoCollectionViewCell.xib in Sources */,
-				29E8F8C90285A30CB787AF9C64C60B15 /* TLPhotoLibrary.swift in Sources */,
-				8C93171B80D6557C7DB29E11C018151A /* TLPhotoPicker-dummy.m in Sources */,
-				A271FEF35CFAFCCC7B75FC3EC1175D6B /* TLPhotosPickerViewController.swift in Sources */,
-				3B80D0CE1773021E014B857E7E07CF57 /* TLPhotosPickerViewController.xib in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		52FEF9BADAC4C99C3F862A2D4AB223B0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -822,101 +852,186 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6175DE40532800BB815B3C18190B1AC8 /* Sources */ = {
+		74AB2A51EB5D5EBAE49C704DBFB3294F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC3D95100F5320C1141EB8FE2A13565 /* TLAlbumPopView.swift in Sources */,
+				FA7501F069B78BD871138BA8CA2AA1DE /* TLAssetsCollection.swift in Sources */,
+				B63C77FE3E33A3B580811DE491406CED /* TLBundle.swift in Sources */,
+				B8DE05D96BCB246FFA2B8F7F60F21CA6 /* TLCollectionTableViewCell.swift in Sources */,
+				C1A43090D3392214E5949342BE539231 /* TLCollectionTableViewCell.xib in Sources */,
+				5A349958735C23BE74F49FB648DCA368 /* TLPhotoCollectionViewCell.swift in Sources */,
+				D9306160809C334943AD2D7B7BA9A352 /* TLPhotoCollectionViewCell.xib in Sources */,
+				099164EBE6375D39148BAE59AF08F742 /* TLPhotoLibrary.swift in Sources */,
+				A35F9158C7067C273F6E51AFBE6EBCB5 /* TLPhotoPicker-dummy.m in Sources */,
+				22764CF797045387B80EAB7C2B985D7C /* TLPhotosPickerViewController.swift in Sources */,
+				4C88E4F5C699FF5DCDFCA8EA0C1A9FCA /* TLPhotosPickerViewController.xib in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BADE7ECA2599C270157DE57A5E777DDC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6369F89E13AB302508E448A2D1F5F7BE /* Sources */ = {
+		DA83CEE31B7522D6050B3267A35F6724 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87350172EBD580D955B0A18D75845504 /* ActionSheet+Presenter.swift in Sources */,
-				E3D4097403E5CF68C5CF89EC34B268CA /* ActionSheet.swift in Sources */,
-				44940FDEB12DD96D1D63746D535D6906 /* ActionSheetAppearance.swift in Sources */,
-				8F37144CBE73169B659E66A4C66DCF14 /* ActionSheetButton.swift in Sources */,
-				9999FE265383BD1D2F436BEE2383F51D /* ActionSheetButtonAppearance.swift in Sources */,
-				B6B5DE5638857BFE6CAE1C3A0CFC7E16 /* ActionSheetCancelButton.swift in Sources */,
-				98634A0E252F13F9DE917822D05370A5 /* ActionSheetCancelButtonAppearance.swift in Sources */,
-				2CA9564C95A96BDF25A1CC26AE26DBDF /* ActionSheetCollectionItem.swift in Sources */,
-				8EA67B0E3474E32699CB456B263FDE45 /* ActionSheetCollectionItemAppearance.swift in Sources */,
-				0AB09A5118FA76AE46B18D3428287CCE /* ActionSheetCollectionItemCell.swift in Sources */,
-				9107FCCFF1596F57DC5642861E940C9B /* ActionSheetCollectionItemContentCell.swift in Sources */,
-				6FF9DA9D518BA092CC5047EF2D2E3DEF /* ActionSheetCustomItem.swift in Sources */,
-				AC0D8F97324407399E99C11A61C406D7 /* ActionSheetCustomItemAppearance.swift in Sources */,
-				E46535CCD03E6DEC8481CFBD555E0A90 /* ActionSheetCustomItemCell.swift in Sources */,
-				03E58C62DE5F30C9DF0E082FF4AC31DF /* ActionSheetDangerButton.swift in Sources */,
-				C9E0059557D94BE5110170BAAE027BC4 /* ActionSheetDangerButtonAppearance.swift in Sources */,
-				75E46832E18915E9CD7190F988F7F80C /* ActionSheetItem.swift in Sources */,
-				1AF3AAA15B7CC681AB616A89E32ADC9F /* ActionSheetItemAppearance.swift in Sources */,
-				9B27CD2A9313D555E212BAE46BB5EFC8 /* ActionSheetItemCell.swift in Sources */,
-				F6D35BD745C07D8BBFC99162C1520C37 /* ActionSheetItemHandler.swift in Sources */,
-				29643211456C0B811144B009BC41F8D8 /* ActionSheetLinkItem.swift in Sources */,
-				2EC1EF53AC4B29C8C4E8415D2256BEED /* ActionSheetLinkItemAppearance.swift in Sources */,
-				9A84E410A841D62804256C40E59A847D /* ActionSheetMargin.swift in Sources */,
-				CCE97F5763210598B45C3A6441DC43AD /* ActionSheetMultiSelectItem.swift in Sources */,
-				3090AECFBEB9786DC3F15D4A32324679 /* ActionSheetMultiSelectItemAppearance.swift in Sources */,
-				CBCFA5450E88AE61C3104135F845D2A5 /* ActionSheetMultiSelectToggleItem.swift in Sources */,
-				BADBADDD5EA36FE5CF1F1F28B5AC56F9 /* ActionSheetMultiSelectToggleItemAppearance.swift in Sources */,
-				EBFFE38D1364D935BAE0E0B30919E50C /* ActionSheetOkButton.swift in Sources */,
-				D02B49261662274F0FCBBA95E82FC776 /* ActionSheetOkButtonAppearance.swift in Sources */,
-				FDFEA5EC6981387231DEA14D986A91F9 /* ActionSheetPopoverAppearance.swift in Sources */,
-				AAC243BA72F1F3E4A93484BEAEABFCF4 /* ActionSheetPopoverPresenter.swift in Sources */,
-				BD2D6748A1E9F2676F12135186C2062D /* ActionSheetPresenter.swift in Sources */,
-				D4F45912DE1C95FBC226205F556BFEA0 /* ActionSheetSectionMargin.swift in Sources */,
-				82A095DBB9B15BA4AF70928CB396A20A /* ActionSheetSectionMarginAppearance.swift in Sources */,
-				73962EE16C2D95CEDA65D9F270CA7370 /* ActionSheetSectionTitle.swift in Sources */,
-				B9B64019AC21A0794D5E611DE6C56964 /* ActionSheetSectionTitleAppearance.swift in Sources */,
-				BD0B0351082E6A69B3E8889F6E94D331 /* ActionSheetSelectItem.swift in Sources */,
-				7E911CCA9A09BD6EE86883D842A2BD86 /* ActionSheetSelectItemAppearance.swift in Sources */,
-				F684215C305AD1D58393D020E5B8A13E /* ActionSheetSingleSelectItem.swift in Sources */,
-				923EE3AB0F6B716A5440AEA3F49F83C5 /* ActionSheetSingleSelectItemAppearance.swift in Sources */,
-				98ED911276C6EBBF942740632E804960 /* ActionSheetStandardPresenter.swift in Sources */,
-				C3B3722CDEB290EA6CDF025BA235E6FA /* ActionSheetTableView.swift in Sources */,
-				61A09250436520CA4247E5ED066D88D8 /* ActionSheetTitle.swift in Sources */,
-				60F1B919992062B426164BF671F3B0B0 /* ActionSheetTitleAppearance.swift in Sources */,
-				A196D6F83BA5417D4EB229E559B08662 /* NSObject+ClassName.swift in Sources */,
-				7C8A557478DACF1D2E915EB334AE5FB4 /* Sheeeeeeeeet-dummy.m in Sources */,
-				05DC2270DA14C7DE506B6D0D82CFDACD /* UIApplication+Fullscreen.swift in Sources */,
-				CA8EB18D99F66D6152ABF56D16918C13 /* UIView+Nib.swift in Sources */,
-				2C64A32596ED16174AA80B5B2A35CCAC /* UIView+Subviews.swift in Sources */,
-				7E4C0414BF6C448A7977FDAA222575A2 /* UIViewController+RootViewController.swift in Sources */,
+				366623CC5665BCDD219E94A46738BFA6 /* ActionSheet+Presenter.swift in Sources */,
+				BC738207DE1DE5764D241E82C8703F48 /* ActionSheet.swift in Sources */,
+				E32915A32DD53CF58ABD2CC745DC7DA1 /* ActionSheetAppearance.swift in Sources */,
+				B6E0E96346D2715F8C77FC40EF28B2F0 /* ActionSheetButton.swift in Sources */,
+				AA144B431B33538926D31D21CC2B98CA /* ActionSheetButtonAppearance.swift in Sources */,
+				BA1EC6FD543D9792521F701E75ED53AB /* ActionSheetCancelButton.swift in Sources */,
+				23CE2C82B65C0C4FCBF7493FCBD4F593 /* ActionSheetCancelButtonAppearance.swift in Sources */,
+				FD52B24AB5FD998FE247FB92A622828F /* ActionSheetCollectionItem.swift in Sources */,
+				128103D53D7BCCCDCF0C2CAC818E4A82 /* ActionSheetCollectionItemAppearance.swift in Sources */,
+				F404232F50B0BFBA7ADE6CB3054262F4 /* ActionSheetCollectionItemCell.swift in Sources */,
+				70CC08C141BD7CFD831C89C173AA3DCF /* ActionSheetCollectionItemContentCell.swift in Sources */,
+				A5FA2A2F5FB414D0E953A385E6EAB33F /* ActionSheetCustomItem.swift in Sources */,
+				665C88141621F0193AB189E0BC161EB6 /* ActionSheetCustomItemAppearance.swift in Sources */,
+				6829CCA2F41B65376F17DB66FB698A87 /* ActionSheetCustomItemCell.swift in Sources */,
+				4603F30E30A0873B50C050F6C630005B /* ActionSheetDangerButton.swift in Sources */,
+				743F3144C477CB75066F68528D168C73 /* ActionSheetDangerButtonAppearance.swift in Sources */,
+				097F8152860DE1D9E8C1225CC8E66B11 /* ActionSheetItem.swift in Sources */,
+				AEB44B30B48D86FB65C350011D09640C /* ActionSheetItemAppearance.swift in Sources */,
+				231BF2EFC23720FCEEA2D59F909653D9 /* ActionSheetItemCell.swift in Sources */,
+				4A9858CD8BF3754DC3C69A1FCC13F513 /* ActionSheetItemHandler.swift in Sources */,
+				591578C285AF14E92684F1400D1727CB /* ActionSheetLinkItem.swift in Sources */,
+				4510C83ABC6F148878FF845396344959 /* ActionSheetLinkItemAppearance.swift in Sources */,
+				3C375C8D8D0E6FE38E266A6BA33F392F /* ActionSheetMargin.swift in Sources */,
+				C7458DDBE3CB184F8FB241E3A0FA45AD /* ActionSheetMultiSelectItem.swift in Sources */,
+				82810963827CA2C35B473E0DD34331E8 /* ActionSheetMultiSelectItemAppearance.swift in Sources */,
+				FC2AC83258A4AC01CFF86259961F7D59 /* ActionSheetMultiSelectToggleItem.swift in Sources */,
+				B688E1051725E81AB6D36DEF32C9DBDC /* ActionSheetMultiSelectToggleItemAppearance.swift in Sources */,
+				3BB3163813BFCFDFB9FA3ED582F2072A /* ActionSheetOkButton.swift in Sources */,
+				706DF86DE6BBB9A31BDF4D553D9B7E3B /* ActionSheetOkButtonAppearance.swift in Sources */,
+				874507AA4D77FEAFAB57C1FA810AFC99 /* ActionSheetPopoverAppearance.swift in Sources */,
+				CCD6CC726D90E5A554858DD3A8F87E14 /* ActionSheetPopoverPresenter.swift in Sources */,
+				73674115AB683946DF08E539D5D3A7F0 /* ActionSheetPresenter.swift in Sources */,
+				69485F4269BCF7BAD3ADED2712787A6E /* ActionSheetSectionMargin.swift in Sources */,
+				3015CA487685F84A87486A4D507A6F5D /* ActionSheetSectionMarginAppearance.swift in Sources */,
+				3829E29DA41C265AFD27D86CB1A8A976 /* ActionSheetSectionTitle.swift in Sources */,
+				018B27833359EBB248005E32AD20C508 /* ActionSheetSectionTitleAppearance.swift in Sources */,
+				1D43D37076149339963E1CF375D95B6E /* ActionSheetSelectItem.swift in Sources */,
+				A0A2408A3D17408BA6B8F8BDF783F884 /* ActionSheetSelectItemAppearance.swift in Sources */,
+				D383A8BFF8295283C4910FA8C6ACA884 /* ActionSheetSingleSelectItem.swift in Sources */,
+				541701DBF83D0B10C8AA60B519E5EA6B /* ActionSheetSingleSelectItemAppearance.swift in Sources */,
+				5E69E95C40D307DA1C0925C19A285A2B /* ActionSheetStandardPresenter.swift in Sources */,
+				5F88C3F59C1D79EA14087A05971AB33D /* ActionSheetTableView.swift in Sources */,
+				D15D810D132B44F745F2B8F06775D4E9 /* ActionSheetTitle.swift in Sources */,
+				96C715BFC5A07858E2C05C0F8892CEEB /* ActionSheetTitleAppearance.swift in Sources */,
+				5DF00BB5B4D38EFBBEB8A88C8214A453 /* NSObject+ClassName.swift in Sources */,
+				C9F97A8A8A6ED141DD498B30B808EF33 /* Sheeeeeeeeet-dummy.m in Sources */,
+				41C95A68E2B5AC554661E83D964D7322 /* UIApplication+Fullscreen.swift in Sources */,
+				917DB27AB4C36496AB3AC22A8A7F7BB3 /* UIView+Nib.swift in Sources */,
+				FF0E1A2C611650C9DC01A292C3A3E0BF /* UIView+Subviews.swift in Sources */,
+				56314B88D2BF8753CE3259FF15C4C884 /* UIViewController+RootViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E969597C94CB59BFD3EBBD9C47B1902D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				813ABDC3FFE8EEB44EBA851CAEBCD7BE /* Pods-Stickify-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		188B9253EF95F8FCEC1AB91925315365 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Sheeeeeeeeet;
-			target = 1B95F981E17B175B001646636FFD4E16 /* Sheeeeeeeeet */;
-			targetProxy = F154558E145CACB98F2B0B9D4CEB4492 /* PBXContainerItemProxy */;
-		};
-		68BE5FFB53DC5C5367D85F2EDD393283 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TLPhotoPicker;
-			target = EDC20D918EE65C9C34C9380E0C05805A /* TLPhotoPicker */;
-			targetProxy = D25B66F11C8E77CA777B7CF465B0BD5D /* PBXContainerItemProxy */;
-		};
-		CC1D48359A0C64B73E10CA017AEC008E /* PBXTargetDependency */ = {
+		019143CC1634D38CDC35EBBA5FB8D968 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "TLPhotoPicker-TLPhotoPicker";
-			target = FB9797983303FD0B8ADFF348538B7AD3 /* TLPhotoPicker-TLPhotoPicker */;
-			targetProxy = 433C04645F3A3A4A061EAB2A0A1B6BE5 /* PBXContainerItemProxy */;
+			target = 77A5B26F5D75FBCD6D90140B70A9A06D /* TLPhotoPicker-TLPhotoPicker */;
+			targetProxy = 27B7049E0DDE587CE9D64927467842DD /* PBXContainerItemProxy */;
 		};
-		D0403BD50C909A73D77D5C8120129B22 /* PBXTargetDependency */ = {
+		2B7A9F9425E601A4C5611657E246AF96 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = APESuperHUD;
 			target = 713C6EFC9DFA210DD59FE576ED4D36CB /* APESuperHUD */;
-			targetProxy = 0DBB8EE89FEC7FDF851B6E5C189DCE53 /* PBXContainerItemProxy */;
+			targetProxy = E898ADC97310E0D2D9A7642199AAA36B /* PBXContainerItemProxy */;
+		};
+		4EF33133CBDA9CD7B19D70FB7C3D8508 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TLPhotoPicker;
+			target = F5D08464FB15DEB02805ED76D7EAA2FB /* TLPhotoPicker */;
+			targetProxy = 114BDD6939CEC85AE896CC517C8EC1A6 /* PBXContainerItemProxy */;
+		};
+		89F7A9FA7C17C6F537FA3C2ECCBD41D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TinyCrayon;
+			target = F60AE12EF32D99B0590B7AB2D021E26F /* TinyCrayon */;
+			targetProxy = B092CF721D0E04813960E82219DDE393 /* PBXContainerItemProxy */;
+		};
+		991EA8BF976959958135C22D39651F9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftLint;
+			target = DB0F54FE10F679266684FAAB6DA72162 /* SwiftLint */;
+			targetProxy = 82947F77175263F6CAE4409FCA52A4B9 /* PBXContainerItemProxy */;
+		};
+		FD3FF4ED02AF173ECBBD21D9D1F4B265 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Sheeeeeeeeet;
+			target = 0FE88A44BF538A4A9E2F0F40BC66A20C /* Sheeeeeeeeet */;
+			targetProxy = 167EFE000B83A19CC3ECDEEEFDBB9127 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0AA3B91655AF95B1F49159CD8085CD89 /* Debug */ = {
+		1E051698B9E54F0F85AEEC4318C5AB6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0B873B8C3B5FB6EEA4AC897D8F862AD /* TLPhotoPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TLPhotoPicker";
+				INFOPLIST_FILE = "Target Support Files/TLPhotoPicker/ResourceBundle-TLPhotoPicker-TLPhotoPicker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				PRODUCT_NAME = TLPhotoPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		2B13DEA297E2E70335B5A2B39A618E59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AB5DF8114398896264027B0A1570180 /* APESuperHUD.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/APESuperHUD/APESuperHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/APESuperHUD/APESuperHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/APESuperHUD/APESuperHUD.modulemap";
+				PRODUCT_MODULE_NAME = APESuperHUD;
+				PRODUCT_NAME = APESuperHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		53F99F6B1862E780A72A99B751670C43 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -948,8 +1063,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -969,7 +1082,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -982,44 +1095,9 @@
 			};
 			name = Debug;
 		};
-		117C25EB34E1BC967805CCFBA27F8D90 /* Debug */ = {
+		7246B39891E30C58A4E71F9F38922BCF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 80D860D50C20824914E8691C5FC196A4 /* TLPhotoPicker.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TLPhotoPicker/TLPhotoPicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TLPhotoPicker/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/TLPhotoPicker/TLPhotoPicker.modulemap";
-				PRODUCT_MODULE_NAME = TLPhotoPicker;
-				PRODUCT_NAME = TLPhotoPicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		33C6DEC0AB3095C74DAB4AA95EA4ABB4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A65B913D82DD946D0376D1981C8359A /* Sheeeeeeeeet.xcconfig */;
+			baseConfigurationReference = E92DB7319AABF2D9116B0CE466760AC0 /* Sheeeeeeeeet.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1031,14 +1109,10 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/Sheeeeeeeeet/Sheeeeeeeeet-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Sheeeeeeeeet/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Sheeeeeeeeet/Sheeeeeeeeet-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Sheeeeeeeeet/Sheeeeeeeeet.modulemap";
 				PRODUCT_MODULE_NAME = Sheeeeeeeeet;
 				PRODUCT_NAME = Sheeeeeeeeet;
@@ -1052,13 +1126,13 @@
 			};
 			name = Debug;
 		};
-		50866D8FC3A77C5A92C2160B57CE0ED2 /* Debug */ = {
+		7CA46DFE45A51475C2E6BA0AC1A983CD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 80D860D50C20824914E8691C5FC196A4 /* TLPhotoPicker.xcconfig */;
+			baseConfigurationReference = C0B873B8C3B5FB6EEA4AC897D8F862AD /* TLPhotoPicker.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TLPhotoPicker";
-				INFOPLIST_FILE = "Target Support Files/TLPhotoPicker/ResourceBundle-TLPhotoPicker-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/TLPhotoPicker/ResourceBundle-TLPhotoPicker-TLPhotoPicker-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				PRODUCT_NAME = TLPhotoPicker;
 				SDKROOT = iphoneos;
@@ -1068,62 +1142,7 @@
 			};
 			name = Debug;
 		};
-		654DE048E5D1C6C06D674AE7F27BEB8C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 80D860D50C20824914E8691C5FC196A4 /* TLPhotoPicker.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TLPhotoPicker";
-				INFOPLIST_FILE = "Target Support Files/TLPhotoPicker/ResourceBundle-TLPhotoPicker-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				PRODUCT_NAME = TLPhotoPicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		69B39C0508B9DB720968F268D243775B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 685DD069E87F012ED5E1CF72F9184FB2 /* Pods-Stickify.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Stickify/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Stickify/Pods-Stickify.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8000995DA02063BF3777393CD52061DD /* Release */ = {
+		80207B3A22B9372718B5DE4B8557FA98 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1155,8 +1174,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -1173,21 +1190,156 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		A6BB1FCF9580EE8212257C6EDD91827E /* Debug */ = {
+		90A21BEBF5B1D88B810880452F5D38EA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3FA8C3D0969CF5864F3F5331D822F0F0 /* APESuperHUD.xcconfig */;
+			baseConfigurationReference = 64E4F663D40FA750E007B80ABE0F6BC1 /* SwiftLint.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		914F2698691328AAC315AF80C19BB561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E92DB7319AABF2D9116B0CE466760AC0 /* Sheeeeeeeeet.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Sheeeeeeeeet/Sheeeeeeeeet-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Sheeeeeeeeet/Sheeeeeeeeet-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Sheeeeeeeeet/Sheeeeeeeeet.modulemap";
+				PRODUCT_MODULE_NAME = Sheeeeeeeeet;
+				PRODUCT_NAME = Sheeeeeeeeet;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		975BB176ECB5C9D27BBE5E856AFB2BA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 694BF1B18BC993DEC1B826E3F3241238 /* TinyCrayon.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A01F31882BB4BD935BB16B1EDFB9ACE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 694BF1B18BC993DEC1B826E3F3241238 /* TinyCrayon.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A13850810F18F053CF99BBBE24A542A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0B873B8C3B5FB6EEA4AC897D8F862AD /* TLPhotoPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TLPhotoPicker/TLPhotoPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TLPhotoPicker/TLPhotoPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TLPhotoPicker/TLPhotoPicker.modulemap";
+				PRODUCT_MODULE_NAME = TLPhotoPicker;
+				PRODUCT_NAME = TLPhotoPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BB37E6ADFA108A9B5AFB8D02F67FB452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0B873B8C3B5FB6EEA4AC897D8F862AD /* TLPhotoPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TLPhotoPicker/TLPhotoPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TLPhotoPicker/TLPhotoPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TLPhotoPicker/TLPhotoPicker.modulemap";
+				PRODUCT_MODULE_NAME = TLPhotoPicker;
+				PRODUCT_NAME = TLPhotoPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C2696B75C445B8370B1881B109474C5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AB5DF8114398896264027B0A1570180 /* APESuperHUD.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1199,14 +1351,10 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/APESuperHUD/APESuperHUD-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/APESuperHUD/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/APESuperHUD/APESuperHUD-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/APESuperHUD/APESuperHUD.modulemap";
 				PRODUCT_MODULE_NAME = APESuperHUD;
 				PRODUCT_NAME = APESuperHUD;
@@ -1215,14 +1363,15 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		D3C4E94510ACFBAD04EEF22DAE3C88A7 /* Debug */ = {
+		C574F18B284126D889D2A1FFC4183A3F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2EB5B67605BEE73953F45F7A9B99485C /* Pods-Stickify.debug.xcconfig */;
+			baseConfigurationReference = 130552C65C5A6B7CF04BE847CC68616E /* Pods-Stickify.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1235,14 +1384,58 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Stickify/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Stickify/Pods-Stickify-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Stickify/Pods-Stickify.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CB380B975A30C3BD9751727D2279D987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64E4F663D40FA750E007B80ABE0F6BC1 /* SwiftLint.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBFAEF50A84ACA442B54A99EC5943DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 903A1F00C36721220259BC02BFDC09F8 /* Pods-Stickify.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Stickify/Pods-Stickify-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Stickify/Pods-Stickify.modulemap";
 				OTHER_LDFLAGS = "";
@@ -1258,122 +1451,14 @@
 			};
 			name = Debug;
 		};
-		E6A7DA7D13DB4D3475BF30D9827EDD9B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A65B913D82DD946D0376D1981C8359A /* Sheeeeeeeeet.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Sheeeeeeeeet/Sheeeeeeeeet-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Sheeeeeeeeet/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Sheeeeeeeeet/Sheeeeeeeeet.modulemap";
-				PRODUCT_MODULE_NAME = Sheeeeeeeeet;
-				PRODUCT_NAME = Sheeeeeeeeet;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		EEA81D7CAE45B362F0C75D6B987FBA9D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 80D860D50C20824914E8691C5FC196A4 /* TLPhotoPicker.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TLPhotoPicker/TLPhotoPicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TLPhotoPicker/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/TLPhotoPicker/TLPhotoPicker.modulemap";
-				PRODUCT_MODULE_NAME = TLPhotoPicker;
-				PRODUCT_NAME = TLPhotoPicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F38EC189D6B2C1E8F5AD286B693CBF77 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3FA8C3D0969CF5864F3F5331D822F0F0 /* APESuperHUD.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/APESuperHUD/APESuperHUD-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/APESuperHUD/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/APESuperHUD/APESuperHUD.modulemap";
-				PRODUCT_MODULE_NAME = APESuperHUD;
-				PRODUCT_NAME = APESuperHUD;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		19B6961E3E12A7DA0217582EAEBB4FA3 /* Build configuration list for PBXNativeTarget "APESuperHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A6BB1FCF9580EE8212257C6EDD91827E /* Debug */,
-				F38EC189D6B2C1E8F5AD286B693CBF77 /* Release */,
+				2B13DEA297E2E70335B5A2B39A618E59 /* Debug */,
+				C2696B75C445B8370B1881B109474C5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1381,44 +1466,62 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0AA3B91655AF95B1F49159CD8085CD89 /* Debug */,
-				8000995DA02063BF3777393CD52061DD /* Release */,
+				53F99F6B1862E780A72A99B751670C43 /* Debug */,
+				80207B3A22B9372718B5DE4B8557FA98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		680A814465FC6C5BB4D6BA06F293B582 /* Build configuration list for PBXNativeTarget "TLPhotoPicker" */ = {
+		2EBED093FAC33B7434C0CFF14907BEBC /* Build configuration list for PBXNativeTarget "TLPhotoPicker-TLPhotoPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				117C25EB34E1BC967805CCFBA27F8D90 /* Debug */,
-				EEA81D7CAE45B362F0C75D6B987FBA9D /* Release */,
+				7CA46DFE45A51475C2E6BA0AC1A983CD /* Debug */,
+				1E051698B9E54F0F85AEEC4318C5AB6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B1AD96A5A0994A48B999814F54B43D3E /* Build configuration list for PBXNativeTarget "TLPhotoPicker-TLPhotoPicker" */ = {
+		65431DA27F3688F81E0A52FCD3FF9163 /* Build configuration list for PBXAggregateTarget "TinyCrayon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				50866D8FC3A77C5A92C2160B57CE0ED2 /* Debug */,
-				654DE048E5D1C6C06D674AE7F27BEB8C /* Release */,
+				A01F31882BB4BD935BB16B1EDFB9ACE1 /* Debug */,
+				975BB176ECB5C9D27BBE5E856AFB2BA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B5B71EED5D2617529F07FD001541590A /* Build configuration list for PBXNativeTarget "Sheeeeeeeeet" */ = {
+		8095AC6E1D9C06BA973D677E8F306866 /* Build configuration list for PBXNativeTarget "Pods-Stickify" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				33C6DEC0AB3095C74DAB4AA95EA4ABB4 /* Debug */,
-				E6A7DA7D13DB4D3475BF30D9827EDD9B /* Release */,
+				CBFAEF50A84ACA442B54A99EC5943DAF /* Debug */,
+				C574F18B284126D889D2A1FFC4183A3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C219ABA26E4649813D690D3BA32B0752 /* Build configuration list for PBXNativeTarget "Pods-Stickify" */ = {
+		9D678F878A4F7C61091291A2A52195CA /* Build configuration list for PBXAggregateTarget "SwiftLint" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3C4E94510ACFBAD04EEF22DAE3C88A7 /* Debug */,
-				69B39C0508B9DB720968F268D243775B /* Release */,
+				CB380B975A30C3BD9751727D2279D987 /* Debug */,
+				90A21BEBF5B1D88B810880452F5D38EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8E83D34449E4574CE0B2AE58931C991 /* Build configuration list for PBXNativeTarget "TLPhotoPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB37E6ADFA108A9B5AFB8D02F67FB452 /* Debug */,
+				A13850810F18F053CF99BBBE24A542A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE3BD09AF1B2C61AC0961B967F87B858 /* Build configuration list for PBXNativeTarget "Sheeeeeeeeet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7246B39891E30C58A4E71F9F38922BCF /* Debug */,
+				914F2698691328AAC315AF80C19BB561 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

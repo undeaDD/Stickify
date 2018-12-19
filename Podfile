@@ -6,5 +6,5 @@ target 'Stickify' do
   pod 'TLPhotoPicker'
   pod 'Sheeeeeeeeet'
   pod 'SwiftLint'
-  pod 'APESuperHUD', :git => 'https://github.com/apegroup/APESuperHUD.git', :branch => 'feature/particle_effect'
+  pod 'APESuperHUD', :git => 'https://github.com/undeaDD/APESuperHUD.git', :branch => 'feature/particle_effect'
 end

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "1010"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AF55AC468B4F04BE477CDEE851BBE78F"
+               BlueprintIdentifier = "6A732293501B50AA5876FA4A0AB9FBA2"
                BuildableName = "Pods_Stickify.framework"
                BlueprintName = "Pods-Stickify"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AF55AC468B4F04BE477CDEE851BBE78F"
+            BlueprintIdentifier = "6A732293501B50AA5876FA4A0AB9FBA2"
             BuildableName = "Pods_Stickify.framework"
             BlueprintName = "Pods-Stickify"
             ReferencedContainer = "container:Pods.xcodeproj">
