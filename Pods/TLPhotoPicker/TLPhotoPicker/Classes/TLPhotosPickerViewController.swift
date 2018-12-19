@@ -727,8 +727,9 @@ extension TLPhotosPickerViewController: UICollectionViewDelegate,UICollectionVie
         for indexPath in visibleIndexPaths {
             guard let cell = self.collectionView.cellForItem(at: indexPath) as? TLPhotoCollectionViewCell else { continue }
             guard let asset = self.focusedCollection?.getTLAsset(at: indexPath.row) else { continue }
-            if getSelectedAssets(asset) != nil {
+            if let selectedAsset = getSelectedAssets(asset) {
                 cell.selectedAsset = true
+                cell.orderLabel?.text = "\(selectedAsset.selectedOrder)"
             }else {
                 cell.selectedAsset = false
             }
@@ -785,6 +786,7 @@ extension TLPhotosPickerViewController: UICollectionViewDelegate,UICollectionVie
             asset.selectedOrder = self.selectedAssets.count + 1
             self.selectedAssets.append(asset)
             cell.selectedAsset = true
+            cell.orderLabel?.text = "\(asset.selectedOrder)"
             if asset.type != .photo, self.configure.autoPlay {
                 playVideo(asset: asset, indexPath: indexPath)
             }
@@ -827,8 +829,9 @@ extension TLPhotosPickerViewController: UICollectionViewDelegate,UICollectionVie
             return cell
         }
         guard let asset = collection.getTLAsset(at: indexPath.row) else { return cell }
-        if getSelectedAssets(asset) != nil {
+        if let selectedAsset = getSelectedAssets(asset) {
             cell.selectedAsset = true
+            cell.orderLabel?.text = "\(selectedAsset.selectedOrder)"
         }else{
             cell.selectedAsset = false
         }
@@ -947,8 +950,9 @@ extension TLPhotosPickerViewController: UICollectionViewDelegate,UICollectionVie
     }
     public func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
         if self.usedPrefetch, let cell = cell as? TLPhotoCollectionViewCell, let collection = self.focusedCollection, let asset = collection.getTLAsset(at: indexPath.row) {
-            if getSelectedAssets(asset) != nil {
+            if let selectedAsset = getSelectedAssets(asset) {
                 cell.selectedAsset = true
+                cell.orderLabel?.text = "\(selectedAsset.selectedOrder)"
             }else{
                 cell.selectedAsset = false
             }

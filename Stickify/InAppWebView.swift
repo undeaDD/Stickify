@@ -1,23 +1,22 @@
 import UIKit
 import WebKit
-import Themeable
 
 class InAppWebView: UIViewController {
-    
+
     @IBOutlet weak var wkWebView: WKWebView!
     public var type: Int = -1
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         if let color = (UIApplication.shared.delegate as? AppDelegate)?.tintColor {
             self.view.backgroundColor = color
         }
-        
+
         self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
         self.navigationController?.navigationBar.shadowImage = UIImage()
         self.wkWebView.scrollView.backgroundColor = .clear
-        
+
         switch type {
         case 5:
             let file = #fileLiteral(resourceName: "Licenses.html")
@@ -29,7 +28,7 @@ class InAppWebView: UIViewController {
         case 6:
             self.navigationItem.title = "SourceCode"
             self.wkWebView.scrollView.backgroundColor = .white
-            self.wkWebView.load(URLRequest(url: URL(string: "https://github.com/undeaDD/")!))
+            self.wkWebView.load(URLRequest(url: URL(string: "https://github.com/undeaDD/Stickify")!))
             return
         case 7:
             self.navigationItem.title = "Data privacy (in 🇩🇪)"
@@ -38,10 +37,9 @@ class InAppWebView: UIViewController {
                 self.wkWebView.loadHTMLString(tempString, baseURL: nil)
                 return
             }
-        default:
-            break;
+        default: break
         }
-        
+
         self.navigationItem.title = ""
         self.dismiss(animated: true, completion: nil)
     }

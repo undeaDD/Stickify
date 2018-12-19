@@ -41,10 +41,13 @@ open class TLPhotoCollectionViewCell: UICollectionViewCell {
     @IBOutlet open var indicator: UIActivityIndicatorView?
     @IBOutlet open var selectedView: UIView?
     @IBOutlet open var selectedHeight: NSLayoutConstraint?
+    @IBOutlet open var orderLabel: UILabel?
+    @IBOutlet open var orderBgView: UIView?
     
     var configure = TLPhotosPickerConfigure() {
         didSet {
             self.selectedView?.layer.borderColor = self.configure.selectedColor.cgColor
+            self.orderBgView?.backgroundColor = self.configure.selectedColor
             self.videoIconImageView?.image = self.configure.videoIcon
         }
     }
@@ -85,6 +88,9 @@ open class TLPhotoCollectionViewCell: UICollectionViewCell {
         willSet(newValue) {
             self.selectedView?.isHidden = !newValue
             self.durationView?.backgroundColor = newValue ? self.configure.selectedColor : UIColor(red: 0, green: 0, blue: 0, alpha: 0.6)
+            if !newValue {
+                self.orderLabel?.text = ""
+            }
         }
     }
     
@@ -150,6 +156,7 @@ open class TLPhotoCollectionViewCell: UICollectionViewCell {
         self.selectedView?.isHidden = true
         self.selectedView?.layer.borderWidth = 10
         self.selectedView?.layer.cornerRadius = 15
+        self.orderBgView?.layer.cornerRadius = 2
         self.videoIconImageView?.image = self.configure.videoIcon
     }
     

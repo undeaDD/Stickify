@@ -244,6 +244,40 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
+                            <tableViewSection headerTitle="   Other" id="qnL-RF-zcZ">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="55" id="GHA-5W-su3">
+                                        <rect key="frame" x="0.0" y="332.33333333333337" width="375" height="55"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="GHA-5W-su3" id="Ykj-vJ-UaV">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="54.666666666666664"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="K3b-Jf-9dc">
+                                                    <rect key="frame" x="26" y="12" width="51" height="31"/>
+                                                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </switch>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="load external app theme" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Hq-kG-L0p">
+                                                    <rect key="frame" x="95" y="11" width="254" height="33"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstItem="K3b-Jf-9dc" firstAttribute="leading" secondItem="Ykj-vJ-UaV" secondAttribute="leadingMargin" constant="10" id="2gi-gt-3iy"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="7Hq-kG-L0p" secondAttribute="bottom" id="2y6-lf-VmC"/>
+                                                <constraint firstItem="7Hq-kG-L0p" firstAttribute="top" secondItem="Ykj-vJ-UaV" secondAttribute="topMargin" id="BuI-CH-j74"/>
+                                                <constraint firstItem="K3b-Jf-9dc" firstAttribute="centerY" secondItem="Ykj-vJ-UaV" secondAttribute="centerY" id="CkO-Mh-3aa"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="7Hq-kG-L0p" secondAttribute="trailing" constant="10" id="GDu-pj-wfi"/>
+                                                <constraint firstItem="7Hq-kG-L0p" firstAttribute="leading" secondItem="K3b-Jf-9dc" secondAttribute="trailing" constant="20" id="yVR-lD-WaZ"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
                         </sections>
                         <connections>
                             <outlet property="dataSource" destination="tkp-cd-8kK" id="UFQ-Fn-8IE"/>
@@ -255,6 +289,7 @@
                     <connections>
                         <outlet property="actionField" destination="gcb-cG-69t" id="5sJ-CV-2wi"/>
                         <outlet property="heightField" destination="c67-sx-ofB" id="HO7-o3-Szx"/>
+                        <outlet property="themeField" destination="K3b-Jf-9dc" id="Lb0-Ct-KKQ"/>
                         <outlet property="widthField" destination="SBy-1B-ZLa" id="6B5-cg-ckl"/>
                     </connections>
                 </tableViewController>

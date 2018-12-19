@@ -144,18 +144,14 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/APESuperHUD/APESuperHUD.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/ColorSlider/ColorSlider.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Sheeeeeeeeet/Sheeeeeeeeet.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/TLPhotoPicker/TLPhotoPicker.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Themeable/Themeable.framework"
   install_framework "${PODS_ROOT}/TinyCrayon/TCMask.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/APESuperHUD/APESuperHUD.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/ColorSlider/ColorSlider.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Sheeeeeeeeet/Sheeeeeeeeet.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/TLPhotoPicker/TLPhotoPicker.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Themeable/Themeable.framework"
   install_framework "${PODS_ROOT}/TinyCrayon/TCMask.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then

@@ -179,7 +179,7 @@ class HudView: UIView {
             $0.isActive = true
         }
         
-        titleLabel.setContentCompressionResistancePriority(.required, for: .vertical)
+        titleLabel.setContentCompressionResistancePriority(UILayoutPriority.required, for: .vertical)
     }
     
     
@@ -194,7 +194,7 @@ class HudView: UIView {
             $0.isActive = true
         }
         
-        informationLabel.setContentCompressionResistancePriority(.required, for: .vertical)
+        informationLabel.setContentCompressionResistancePriority(UILayoutPriority.required, for: .vertical)
     }
 }
 
@@ -279,14 +279,13 @@ extension HudView {
     func showMessages(messages: [String]) {
         
         loadingMessagesHandler = LoadingMessagesHandler(messages: messages)
-        let showMessagesSelector = #selector(showMessagesUnique)
-        showMessagesUnique()
+        let showMessagesSelector = #selector(showMessages as () -> Void)
+        showMessages()
         timer.invalidate()
         timer = Timer.scheduledTimer(timeInterval: 2.5, target: self, selector: showMessagesSelector, userInfo: nil, repeats: true)
     }
     
-    @objc
-    func showMessagesUnique() {
+    @objc func showMessages() {
         
         let message = loadingMessagesHandler.firstMessage()
         if isActiveTimer {
@@ -324,9 +323,7 @@ extension HudView {
         loadingActivityIndicator.startAnimating()
         
         showViewsAnimated(views: [loadingActivityIndicator, informationLabel], completion: {
-            
             completion?()
-            
         })
         
     }
@@ -334,12 +331,9 @@ extension HudView {
     func hideLoadingActivityIndicator(completion: (() -> Void)?) {
         
         hideViewsAnimated(views: [loadingActivityIndicator, informationLabel], completion: { [weak self] in
-            
             self?.loadingActivityIndicator.stopAnimating()
-            
             completion?()
-            
-            })
+        })
         
     }
     
@@ -357,9 +351,7 @@ extension HudView {
         }
         
         showViewsAnimated(views: [titleLabel, informationLabel, iconImageView], completion: {
-            
             completion?()
-            
         })
         
     }
@@ -439,8 +431,11 @@ extension HudView {
     
     override internal func didMoveToSuperview() {
         super.didMoveToSuperview()
+        
         setupDefaultState()
+        
         animateInHud(completion: { })
+        
     }
 }
 
@@ -478,13 +473,13 @@ extension HudView {
         switch APESuperHUD.appearance.backgroundBlurEffect {
             
         case .dark:
-            blurEffect =  UIBlurEffect(style: .dark)
+            blurEffect =  UIBlurEffect(style: UIBlurEffect.Style.dark)
             
         case .light:
-            blurEffect =  UIBlurEffect(style: .light)
+            blurEffect =  UIBlurEffect(style: UIBlurEffect.Style.light)
             
         case .extraLight:
-            blurEffect =  UIBlurEffect(style: .extraLight)
+            blurEffect =  UIBlurEffect(style: UIBlurEffect.Style.extraLight)
             
         case .none:
             

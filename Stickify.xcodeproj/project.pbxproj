@@ -15,6 +15,9 @@
 		B660D70B21C027BD007FECCA /* InAppWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B660D70A21C027BD007FECCA /* InAppWebView.swift */; };
 		B660D70D21C03451007FECCA /* DataPrivacy.html in Resources */ = {isa = PBXBuildFile; fileRef = B660D70C21C03451007FECCA /* DataPrivacy.html */; };
 		B660D71021C034C1007FECCA /* Licenses.html in Resources */ = {isa = PBXBuildFile; fileRef = B660D70F21C034C1007FECCA /* Licenses.html */; };
+		B69957D221CA2F1D003730E0 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B69957D121CA2F1D003730E0 /* StoreKit.framework */; };
+		B69957D621CA3AF6003730E0 /* IAPHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69957D521CA3AF6003730E0 /* IAPHandler.swift */; };
+		B69957D821CA40DF003730E0 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = B69957D721CA40DF003730E0 /* .swiftlint.yml */; };
 		B69C48B421C0FCBB001D25C3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69C48B321C0FCBB001D25C3 /* SettingsView.swift */; };
 		B6CA7A3B21BFEF0200550491 /* FireFliesParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = B6CA7A3A21BFEF0200550491 /* FireFliesParticle.sks */; };
 		CF49EDE16347CAD74F0A664D /* Pods_Stickify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E94354E764FCBE217B2E01F /* Pods_Stickify.framework */; };
@@ -34,6 +37,9 @@
 		B660D70A21C027BD007FECCA /* InAppWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InAppWebView.swift; sourceTree = "<group>"; };
 		B660D70C21C03451007FECCA /* DataPrivacy.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = DataPrivacy.html; sourceTree = "<group>"; };
 		B660D70F21C034C1007FECCA /* Licenses.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = Licenses.html; sourceTree = "<group>"; };
+		B69957D121CA2F1D003730E0 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		B69957D521CA3AF6003730E0 /* IAPHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPHandler.swift; sourceTree = "<group>"; };
+		B69957D721CA40DF003730E0 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
 		B69C48B321C0FCBB001D25C3 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		B6CA7A3A21BFEF0200550491 /* FireFliesParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = FireFliesParticle.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -44,6 +50,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF49EDE16347CAD74F0A664D /* Pods_Stickify.framework in Frameworks */,
+				B69957D221CA2F1D003730E0 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +60,7 @@
 		25FEB1918B26B7EE1F7F64AF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B69957D121CA2F1D003730E0 /* StoreKit.framework */,
 				2E94354E764FCBE217B2E01F /* Pods_Stickify.framework */,
 			);
 			name = Frameworks;
@@ -70,6 +78,7 @@
 		B6443AFB21AF2BD10028DA01 = {
 			isa = PBXGroup;
 			children = (
+				B69957D721CA40DF003730E0 /* .swiftlint.yml */,
 				B6443B0621AF2BD10028DA01 /* Stickify */,
 				B6443B0521AF2BD10028DA01 /* Products */,
 				81D1407CAF621FDCA01EFFEF /* Pods */,
@@ -93,6 +102,7 @@
 				B6475EF321AF2FE000342DA1 /* ImagePickerView.swift */,
 				B69C48B321C0FCBB001D25C3 /* SettingsView.swift */,
 				B660D70A21C027BD007FECCA /* InAppWebView.swift */,
+				B69957D521CA3AF6003730E0 /* IAPHandler.swift */,
 				B6443B0B21AF2BD10028DA01 /* Main.storyboard */,
 			);
 			path = Stickify;
@@ -123,6 +133,7 @@
 				B6443B0121AF2BD10028DA01 /* Frameworks */,
 				B6443B0221AF2BD10028DA01 /* Resources */,
 				AED605F20290653CC80988E1 /* [CP] Embed Pods Frameworks */,
+				B69957D921CA419D003730E0 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -145,6 +156,11 @@
 				TargetAttributes = {
 					B6443B0321AF2BD10028DA01 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -174,6 +190,7 @@
 				B6443B1221AF2BD30028DA01 /* LaunchScreen.storyboard in Resources */,
 				B6443B0F21AF2BD30028DA01 /* Assets.xcassets in Resources */,
 				B660D71021C034C1007FECCA /* Licenses.html in Resources */,
+				B69957D821CA40DF003730E0 /* .swiftlint.yml in Resources */,
 				B6443B0D21AF2BD10028DA01 /* Main.storyboard in Resources */,
 				B6CA7A3B21BFEF0200550491 /* FireFliesParticle.sks in Resources */,
 				B660D70D21C03451007FECCA /* DataPrivacy.html in Resources */,
@@ -209,25 +226,38 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Stickify/Pods-Stickify-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/APESuperHUD/APESuperHUD.framework",
-				"${BUILT_PRODUCTS_DIR}/ColorSlider/ColorSlider.framework",
 				"${BUILT_PRODUCTS_DIR}/Sheeeeeeeeet/Sheeeeeeeeet.framework",
 				"${BUILT_PRODUCTS_DIR}/TLPhotoPicker/TLPhotoPicker.framework",
-				"${BUILT_PRODUCTS_DIR}/Themeable/Themeable.framework",
 				"${PODS_ROOT}/TinyCrayon/TCMask.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/APESuperHUD.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ColorSlider.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Sheeeeeeeeet.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TLPhotoPicker.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Themeable.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TCMask.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Stickify/Pods-Stickify-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		B69957D921CA419D003730E0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PODS_ROOT}/SwiftLint/swiftlint\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -237,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B660D70B21C027BD007FECCA /* InAppWebView.swift in Sources */,
+				B69957D621CA3AF6003730E0 /* IAPHandler.swift in Sources */,
 				B69C48B421C0FCBB001D25C3 /* SettingsView.swift in Sources */,
 				B6475EF421AF2FE000342DA1 /* ImagePickerView.swift in Sources */,
 				B6443B0821AF2BD10028DA01 /* AppDelegate.swift in Sources */,
@@ -389,6 +420,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AXLC3PQNC8;
 				INFOPLIST_FILE = "$(SRCROOT)/Stickify/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -408,6 +440,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AXLC3PQNC8;
 				INFOPLIST_FILE = "$(SRCROOT)/Stickify/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -39,7 +39,34 @@
                     </view>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d1a-KW-Ta4">
                         <rect key="frame" x="-5" y="-5" width="110" height="110"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hbA-dR-I09">
+                                <rect key="frame" x="75" y="5" width="30" height="30"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Weu-ef-IZ5">
+                                        <rect key="frame" x="1.5" y="8" width="25" height="16"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="25" id="YMX-0Z-bfm"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.27843137254901962" green="0.47058823529411764" blue="0.85098039215686272" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="8ln-g5-eHL"/>
+                                    <constraint firstItem="Weu-ef-IZ5" firstAttribute="leading" secondItem="hbA-dR-I09" secondAttribute="leading" constant="1.5" id="Yw3-zp-UZQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="Weu-ef-IZ5" secondAttribute="trailing" constant="3.5" id="jsL-aw-IED"/>
+                                    <constraint firstItem="Weu-ef-IZ5" firstAttribute="centerY" secondItem="hbA-dR-I09" secondAttribute="centerY" constant="1" id="nUh-b3-s9s"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="hbA-dR-I09" secondAttribute="trailing" constant="5" id="hjj-HC-A4B"/>
+                            <constraint firstItem="hbA-dR-I09" firstAttribute="top" secondItem="d1a-KW-Ta4" secondAttribute="top" constant="5" id="xJ1-j7-RX7"/>
+                        </constraints>
                     </view>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aju-ob-KlZ">
                         <rect key="frame" x="0.0" y="75" width="100" height="25"/>
@@ -104,6 +131,8 @@
                 <outlet property="indicator" destination="DZc-ag-e55" id="R3y-XL-0SY"/>
                 <outlet property="liveBadgeImageView" destination="TGh-wt-hcR" id="cry-3P-rLI"/>
                 <outlet property="livePhotoView" destination="vfk-Ao-TKR" id="uvj-l1-wcp"/>
+                <outlet property="orderBgView" destination="hbA-dR-I09" id="cQo-BP-xh1"/>
+                <outlet property="orderLabel" destination="Weu-ef-IZ5" id="B3t-X5-o3a"/>
                 <outlet property="playerView" destination="apl-2Q-Hz7" id="vTI-ie-mcV"/>
                 <outlet property="selectedHeight" destination="VMJ-Qp-D4N" id="uVe-tQ-4q5"/>
                 <outlet property="selectedView" destination="d1a-KW-Ta4" id="c31-4y-72g"/>
