@@ -6,6 +6,8 @@ disabled_rules:
 - identifier_name
 - multiple_closures_with_trailing_closure
 - force_unwrapping
+- file_length
+
 opt_in_rules:
 - attributes
 - array_init
@@ -33,6 +35,7 @@ opt_in_rules:
 - explicit_init
 - redundant_nil_coalescing
 - syntactic_sugar
+
 excluded:
 - Carthage
 - Pods

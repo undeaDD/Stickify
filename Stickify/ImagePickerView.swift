@@ -304,12 +304,77 @@ extension ImagePickerView: TCMaskViewDelegate {
                     let h = v.frame.height + height
                     v.frame = CGRect(x: 0, y: y, width: view.frame.width, height: h)
                     vc.view.setNeedsDisplay()
+
+                     /*
+                    // Try to add offset to UIPanGestureRecognizer
+                     
+                    for gestureView in v.getAllSubviews() as [UIView] {
+                        if let gesture = gestureView.gestureRecognizers {
+                            var first = true
+                            for g in gesture where g is UIPanGestureRecognizer {
+                                if first { first = false; continue }
+
+                                maskView = gestureView // TCMask.ImageScrollView
+
+                                if let array = g.value(forKey: "_targets") as? NSMutableArray {
+                                    
+                                    array[]
+                                    array.removeAllObjects()
+                                    
+                                    return
+                                }
+                            }
+                        }
+                    }
+                     
+ */
+
                     break
                 }
             }
         }
     }
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+extension UIView {
+
+    class func getAllSubviews<T: UIView>(view: UIView) -> [T] {
+        return view.subviews.flatMap { subView -> [T] in
+            var result = getAllSubviews(view: subView) as [T]
+            if let view = subView as? T {
+                result.append(view)
+            }
+            return result
+        }
+    }
+
+    func getAllSubviews<T: UIView>() -> [T] {
+        return UIView.getAllSubviews(view: self) as [T]
+    }
 }
 
 extension UIImage {
